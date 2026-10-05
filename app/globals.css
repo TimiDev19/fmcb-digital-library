@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #0d3d34;
+  --pine: #0b302a;
+  --mint: #d9f5df;
+  --lime: #a9d64f;
+  --ink: #122821;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #f5f7f4;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+::selection {
+  background: #bce4ba;
+  color: #0b302a;
+}
+.display-font {
+  font-family: Georgia, "Times New Roman", serif;
+}
+.main-surface {
+  background: radial-gradient(
+      circle at 85% 10%,
+      rgba(190, 229, 157, 0.16),
+      transparent 28rem
+    ),
+    linear-gradient(135deg, #103d35 0%, #0d342e 45%, #0a2b27 100%);
+}
+.grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E");
+}
+.resource-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.resource-scroll::-webkit-scrollbar-thumb {
+  background: #b5d4bb;
+  border-radius: 8px;
+}
