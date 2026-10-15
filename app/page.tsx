@@ -22,7 +22,7 @@ type Tab = "home" | "books" | "courses" | "journals" | "pictures";
 const nav: { id: Tab; label: string; icon: typeof BookOpen }[] = [
   { id: "home", label: "Home", icon: LibraryBig },
   { id: "books", label: "Books", icon: BookOpen },
-  { id: "courses", label: "Courses", icon: GraduationCap },
+  { id: "courses", label: "Course Materials", icon: GraduationCap },
   { id: "journals", label: "Journals", icon: FileText },
   { id: "pictures", label: "Pictures", icon: GalleryVerticalEnd },
 ];
@@ -97,13 +97,23 @@ function FolderCard({
       className="group overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
     >
       <div className="relative h-36 overflow-hidden">
-        <img src={image} alt="" className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+        <img
+          src={image}
+          alt=""
+          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent" />
-        <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">{category}</span>
+        <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">
+          {category}
+        </span>
       </div>
       <div className="p-4">
-        <p className="text-base font-bold leading-snug text-[#15342c]">{title}</p>
-        <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500">{description}</p>
+        <p className="text-base font-bold leading-snug text-[#15342c]">
+          {title}
+        </p>
+        <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500">
+          {description}
+        </p>
         <div className="mt-4 flex items-center justify-between text-xs font-bold text-[#167159]">
           <span>{count}</span>
           <ChevronRight size={16} />
@@ -140,6 +150,8 @@ export default function Home() {
   const label =
     active === "home"
       ? "Featured resources"
+      : active === "courses"
+      ? "Course Materials"
       : active[0].toUpperCase() + active.slice(1);
   const choose = (tab: Tab) => {
     setActive(tab);
@@ -242,11 +254,11 @@ export default function Home() {
         <header className="flex items-center justify-between px-5 py-5 sm:px-8 lg:px-12">
           <button
             onClick={() => setOpen(true)}
-            className="grid size-11 place-items-center rounded-xl bg-white/10 text-white ring-1 ring-white/20 lg:hidden"
+            className="grid size-11 place-items-center rounded-xl bg-white/10 text-[#008C7A] ring-1 ring-white/20 lg:hidden"
           >
             <Menu />
           </button>
-          <div className="hidden items-center gap-2 text-sm font-semibold text-[#006B3F] sm:flex">
+          <div className=" items-center gap-2 text-sm font-semibold text-[#006B3F] flex">
             <GraduationCap size={19} />
             Department of Community Health, Federal Medical Centre Bida.
           </div>
@@ -265,21 +277,23 @@ export default function Home() {
               Community Health Department digital library
             </p>
             <h1 className="display-font relative mt-3 max-w-3xl text-black text-4xl leading-[1.03] sm:text-5xl lg:text-6xl">
-              Learn. Serve.
+              Discover. Learn.
               <br />
-              <em className="font-normal text-[#008C7A]">Strengthen</em>{" "}
-              communities.
+              Advance{" "}
+              <em className="font-normal text-[#008C7A]">Public Health.</em>{" "}
+              {/* communities. */}
             </h1>
             <p className="relative mt-5 max-w-xl text-base leading-relaxed text-[#008C7A]">
-              Courses, learning materials, journals and visual resources for the Department of
-              Community Health.
+              A comprehensive digital repository advancing public health through
+              accessible data, peer-reviewed literature, and community wellness
+              initiatives
             </p>
             <div className="relative mt-8 flex flex-wrap gap-3 cursor-pointer">
               <button
                 onClick={() => choose("courses")}
                 className="rounded-xl bg-[#008C7A] px-5 py-3 text-sm font-bold text-[#fff] hover:text-[#008C7A] duration-500 cursor-pointer transition hover:bg-[#008C7A]/50"
               >
-                Browse courses
+                Browse course materials
               </button>
               <button
                 onClick={() => choose("journals")}
@@ -297,10 +311,21 @@ export default function Home() {
               <h2 className="display-font mt-1 text-3xl text-black">
                 {search ? "Search results" : label}
                 {!search && active === "courses" && courseId && (
-                  <span className="text-[#bce47a]"> / {courses.find((course) => course.id === courseId)?.title}</span>
+                  <span className="text-[#bce47a]">
+                    {" "}
+                    / {courses.find((course) => course.id === courseId)?.title}
+                  </span>
                 )}
                 {!search && active === "courses" && weekId && (
-                  <span className="text-[#bce47a]"> / {courses.find((course) => course.id === courseId)?.weeks.find((week) => week.id === weekId)?.title}</span>
+                  <span className="text-[#bce47a]">
+                    {" "}
+                    /{" "}
+                    {
+                      courses
+                        .find((course) => course.id === courseId)
+                        ?.weeks.find((week) => week.id === weekId)?.title
+                    }
+                  </span>
                 )}
               </h2>
             </div>
@@ -317,41 +342,85 @@ export default function Home() {
           {active === "courses" && !search ? (
             <>
               {courseId && (
-                <button onClick={() => weekId ? setWeekId(null) : setCourseId(null)} className="mt-5 rounded-lg border border-[#008C7A] bg-[#008C7A] px-3 py-2 text-sm font-bold text-white transition hover:border-[#0f4a3e] hover:bg-[#0f4a3e]">
+                <button
+                  onClick={() => (weekId ? setWeekId(null) : setCourseId(null))}
+                  className="mt-5 rounded-lg border border-[#008C7A] bg-[#008C7A] px-3 py-2 text-sm font-bold text-white transition hover:border-[#0f4a3e] hover:bg-[#0f4a3e]"
+                >
                   ← Back {weekId ? "to weeks" : "to courses"}
                 </button>
               )}
               {!courseId ? (
                 <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                   {courses.map((course, index) => (
-                    <FolderCard key={course.id} title={course.title} description={course.description} category="Course" count={`${course.weeks.length} ${course.weeks.length === 1 ? "week" : "weeks"} · ${course.weeks.reduce((sum, week) => sum + week.files.length, 0)} files`} image="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80" index={index} onClick={() => setCourseId(course.id)} />
+                    <FolderCard
+                      key={course.id}
+                      title={course.title}
+                      description={course.description}
+                      category="Course"
+                      count={`${course.weeks.length} ${
+                        course.weeks.length === 1 ? "week" : "weeks"
+                      } · ${course.weeks.reduce(
+                        (sum, week) => sum + week.files.length,
+                        0
+                      )} files`}
+                      image="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80"
+                      index={index}
+                      onClick={() => setCourseId(course.id)}
+                    />
                   ))}
                 </div>
               ) : !weekId ? (
                 <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                  {courses.find((course) => course.id === courseId)?.weeks.map((week, index) => (
-                    <FolderCard key={week.id} title={week.title} description={`${week.files.length} ${week.files.length === 1 ? "file" : "files"} in this week.`} category="Week" count={`${week.files.length} ${week.files.length === 1 ? "file" : "files"}`} image="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80" index={index} onClick={() => setWeekId(week.id)} />
-                  ))}
+                  {courses
+                    .find((course) => course.id === courseId)
+                    ?.weeks.map((week, index) => (
+                      <FolderCard
+                        key={week.id}
+                        title={week.title}
+                        description={`${week.files.length} ${
+                          week.files.length === 1 ? "file" : "files"
+                        } in this week.`}
+                        category="Week"
+                        count={`${week.files.length} ${
+                          week.files.length === 1 ? "file" : "files"
+                        }`}
+                        image="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80"
+                        index={index}
+                        onClick={() => setWeekId(week.id)}
+                      />
+                    ))}
                 </div>
               ) : (
                 <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                  {courses.find((course) => course.id === courseId)?.weeks.find((week) => week.id === weekId)?.files.map((item, i) => <ResourceCard key={item.id} resource={item} index={i} />)}
+                  {courses
+                    .find((course) => course.id === courseId)
+                    ?.weeks.find((week) => week.id === weekId)
+                    ?.files.map((item, i) => (
+                      <ResourceCard key={item.id} resource={item} index={i} />
+                    ))}
                 </div>
               )}
             </>
           ) : (
             <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-              {shown.map((item, i) => <ResourceCard key={item.id} resource={item} index={i} />)}
+              {shown.map((item, i) => (
+                <ResourceCard key={item.id} resource={item} index={i} />
+              ))}
             </div>
           )}
           {active === "courses" && !search && courses.length === 0 ? (
             <div className="mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]">
-              Courses are ready to be added. Add each course, its weeks, and each week’s files in the courses data in <code>app/helpers.tsx</code>.
+              Courses are ready to be added. Add each course, its weeks, and
+              each week’s files in the courses data in{" "}
+              <code>app/helpers.tsx</code>.
             </div>
-          ) : shown.length === 0 && (search || active !== "courses") && (
-            <div className="mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]">
-              No resources found. Try another keyword.
-            </div>
+          ) : (
+            shown.length === 0 &&
+            (search || active !== "courses") && (
+              <div className="mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]">
+                No resources found. Try another keyword.
+              </div>
+            )
           )}
           {active === "home" && !search && (
             <div className="mt-8 grid gap-4 md:grid-cols-3">

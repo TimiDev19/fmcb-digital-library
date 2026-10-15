@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "FMC Bida | Community Healthcare Library",
-  description: "Department of Community Healthcare digital resource library.",
+  description:
+    "A comprehensive digital repository advancing public health through accessible data, peer-reviewed literature, and community wellness initiatives",
 };
 
 export default function RootLayout({
