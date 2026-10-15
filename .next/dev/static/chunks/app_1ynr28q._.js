@@ -5,6 +5,8 @@
 __turbopack_context__.s([
     "books",
     ()=>books,
+    "courses",
+    ()=>courses,
     "journals",
     ()=>journals,
     "pictures",
@@ -12,40 +14,266 @@ __turbopack_context__.s([
 ]);
 const books = [
     {
-        id: "book-primary-health",
-        title: "Primary Health Care",
-        description: "A practical foundation for accessible, person-centred community care.",
+        id: "1",
+        title: "Demography Analysis and Synthesis.",
+        description: "A treatise in population.",
+        category: "Core text",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1lmKfuSjZwn5AY08D3JrQWcKtBZd2RT31/view?usp=drive_link",
+        year: "Download Now"
+    },
+    {
+        id: "2",
+        title: "Using ArcGIS Spatial Analyst",
+        description: "GIS by ESRI",
         category: "Core text",
         image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
-        link: "https://drive.google.com/",
-        year: "2024 edition"
+        link: "https://drive.google.com/file/d/13brRDiVR7kutUXsbSZs92spBG7J3K7nd/view?usp=drive_link",
+        year: "Download Now"
     },
     {
-        id: "book-epidemiology",
-        title: "Essentials of Epidemiology",
-        description: "Tools for understanding patterns of health and disease in populations.",
-        category: "Public health",
+        id: "3",
+        title: "Fundamentals of Biostatistics (7th Edition)",
+        description: "",
+        category: "Core text",
         image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
-        link: "https://drive.google.com/",
-        year: "Reference"
+        link: "https://drive.google.com/file/d/1QmWYp49IMASE5L14XAWMD8BhtJrttm5i/view?usp=drive_link",
+        year: "Download Now"
     },
     {
-        id: "book-family",
-        title: "Family Medicine Handbook",
-        description: "Clinical guidance for the first-contact healthcare setting.",
-        category: "Clinical care",
-        image: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=700&q=80",
-        link: "https://drive.google.com/",
-        year: "Reference"
+        id: "4",
+        title: "Handbook of Epidemiology",
+        description: "",
+        category: "Core text",
+        image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1Jz2iHjDcPLovcA-kQ7ktbd9NOHoNn1nJ/view?usp=drive_link",
+        year: "Download Now"
     },
     {
-        id: "book-health-promotion",
-        title: "Health Promotion in Practice",
-        description: "Community-led strategies for healthier lives and better outcomes.",
-        category: "Community health",
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
-        link: "https://drive.google.com/",
-        year: "2023 edition"
+        id: "5",
+        title: "Principles and Practice of Surgery",
+        description: "Including pathology in the tropics",
+        category: "Core text",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1Jz2iHjDcPLovcA-kQ7ktbd9NOHoNn1nJ/view?usp=drive_link",
+        year: "Download Now"
+    },
+    {
+        id: "6",
+        title: "Oxford Textbook of Public Health 4th Edition",
+        description: "",
+        category: "Core text",
+        image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1u9uEKBuj45p5DYOYuQegG67TEArlkhvj/view?usp=drive_link",
+        year: "Download Now"
+    }
+];
+const courses = [
+    {
+        id: "1",
+        title: "CMH Course",
+        description: "",
+        weeks: [
+            {
+                id: "1",
+                title: "Week 2",
+                files: [
+                    {
+                        id: "1",
+                        title: "Updated Recommendations On First-Line and Second-Line Antiretroviral Regimens and Post-Exposure Prophylaxis and Recommendations on Early Infant Diagnosis of HIV",
+                        description: "SUPPLEMENT TO THE 2016 CONSOLIDATED GUIDELINES ON THE USE OF ANTIRETROVIRAL DRUGS FOR TREATING AND PREVENTING HIV INFECTION",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1nMD0yU9cg4BGx12q_O4HysilhiF5FBRV/view?usp=sharing"
+                    }
+                ]
+            },
+            {
+                id: "2",
+                title: "Week 5",
+                files: [
+                    {
+                        id: "1",
+                        title: "Evaluation and Management of Virologic Failure",
+                        description: "",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1WdvRiKozJTLKvXMflwHoSg-cPzxJLWZ6/view?usp=sharing"
+                    }
+                ]
+            },
+            {
+                id: "3",
+                title: "Week 7",
+                files: [
+                    {
+                        id: "1",
+                        title: "UPDATED RECOMMENDATIONS ON HIV PREVENTION, INFANT DIAGNOSIS, ANTIRETROVIRAL INITIATION AND MONITORING",
+                        description: "",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/17tSfL5EPq6Yw7llUZ5g4qra-Nkb9O6rW/view?usp=sharing"
+                    },
+                    {
+                        id: "2",
+                        title: "CONSOLIDATED GUIDELINES ON THE USE OF ANTIRETROVIRAL DRUGS FOR TREATING AND PREVENTING HIV INFECTION",
+                        description: "RECOMMENDATIONS FOR A PUBLIC HEALTH APPROACH",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/111Vh1hPMqVHYRh4S5fRzlNSuLhArXuLd/view?usp=sharing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "2",
+        title: "EEGH Course",
+        description: "",
+        weeks: [
+            {
+                id: "1",
+                title: "Week 4",
+                files: [
+                    {
+                        id: "1",
+                        title: "3 case study carol levin Lower Resolution",
+                        description: "",
+                        category: "Lecture Video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1MrJ4WUbsV-_4fV_NBRyq-KEzRRn7GEzV/view?usp=sharing"
+                    },
+                    {
+                        id: "2",
+                        title: "3 GHCC BP Understanding Interpreting Cost Data Downloadable",
+                        description: "",
+                        category: "Lecture Video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1zyBit46ZPNFDK6IvMU_69pfCJytqk6nc/view?usp=sharing"
+                    },
+                    {
+                        id: "3",
+                        title: "4 Guidelines For Reporting Health Economic Evaluations Part 3 download",
+                        description: "",
+                        category: "Lecture Video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/17_1Reuut9KLg3esQQ5trLI60aZHO1EYy/view?usp=sharing"
+                    },
+                    {
+                        id: "4",
+                        title: "4 Microcosting download",
+                        description: "",
+                        category: "Lecture Video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1KvDTj24k9RoH_H8ln2GAOO0zV4x5yFGr/view?usp=sharing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "3",
+        title: "GHR Course",
+        description: "",
+        weeks: [
+            {
+                id: "1",
+                title: "Week 5",
+                files: [
+                    {
+                        id: "1",
+                        title: "Statistical Resources and Sample Size",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1srAGO7CNSb77vMapgnJkeHGWA7tIBhXZ/view?usp=sharing"
+                    }
+                ]
+            },
+            {
+                id: "2",
+                title: "Week 6",
+                files: [
+                    {
+                        id: "1",
+                        title: "6 Biosketch",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1zOMQx_MNJ6g-4aUw5WIO5N5UjvXgdOuQ/view?usp=sharing"
+                    },
+                    {
+                        id: "2",
+                        title: "6 Budget",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1Nom6TA8CKHmodBRyrjO3ug19VPtSL3n6/view?usp=sharing"
+                    },
+                    {
+                        id: "3",
+                        title: "6 Critical Grant Components",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/11Hk3dRLgehWlH69hZqqbL_wWufGl6e6i/view?usp=sharing"
+                    },
+                    {
+                        id: "4",
+                        title: "6 Peer Review",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1JD8zeWiA222yKP7Q-WolCDA9GYjDc2-h/view?usp=sharing"
+                    },
+                    {
+                        id: "5",
+                        title: "Budget Template",
+                        description: "",
+                        category: "Lecture file",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://docs.google.com/spreadsheets/d/1NPeeqr1ZcQIzelKh_AqnqHdvW52VVcoD/edit?usp=sharing&ouid=115141053448120915969&rtpof=true&sd=true"
+                    },
+                    {
+                        id: "6",
+                        title: "GHR NIH Mock Review Document",
+                        description: "",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1A_ePTtdU6EZviPjfHPvWJbB3Ef3NCWB8/view?usp=sharing"
+                    },
+                    {
+                        id: "7",
+                        title: "CONDUCTING RESEARCH RESPONSIBLY IN GLOBAL HEALTH",
+                        description: "Fiscal Responsibility",
+                        category: "Lecture notes",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1ItqnWJSfw8eCaeeOoZnaJoG0uGg7n-xU/view?usp=sharing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "4",
+        title: "M&E University of Washington",
+        description: "",
+        weeks: [
+            {
+                id: "1",
+                title: "Module 8",
+                files: [
+                    {
+                        id: "1",
+                        title: "Designing Data Collection Tools",
+                        description: "",
+                        category: "Lecture video",
+                        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                        link: "https://drive.google.com/file/d/1bLPodVrdC6M-we4OUQSQwAYdy1Fw215r/view?usp=sharing"
+                    }
+                ]
+            }
+        ]
     }
 ];
 const journals = [
@@ -149,6 +377,11 @@ const nav = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"]
     },
     {
+        id: "courses",
+        label: "Courses",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"]
+    },
+    {
         id: "journals",
         label: "Journals",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__["FileText"]
@@ -186,14 +419,14 @@ function ResourceCard({ resource, index }) {
                         className: "h-full w-full object-cover transition duration-500 group-hover:scale-105"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -201,13 +434,13 @@ function ResourceCard({ resource, index }) {
                         children: resource.category
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -218,7 +451,7 @@ function ResourceCard({ resource, index }) {
                         children: resource.title
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -226,7 +459,7 @@ function ResourceCard({ resource, index }) {
                         children: resource.description
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -236,41 +469,148 @@ function ResourceCard({ resource, index }) {
                                 children: resource.year ?? "Open gallery"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 65,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                 size: 16
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 66,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
 _c = ResourceCard;
+function FolderCard({ title, description, category, count, image, index, onClick }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+        initial: {
+            opacity: 0,
+            y: 16
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        transition: {
+            delay: index * 0.06
+        },
+        onClick: onClick,
+        className: "group overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-xl",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative h-36 overflow-hidden",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: image,
+                        alt: "",
+                        className: "h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 100,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent"
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 101,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]",
+                        children: category
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 102,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 99,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "p-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-base font-bold leading-snug text-[#15342c]",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 105,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500",
+                        children: description
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 106,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-4 flex items-center justify-between text-xs font-bold text-[#167159]",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: count
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 108,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                size: 16
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 109,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 107,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 104,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/page.tsx",
+        lineNumber: 92,
+        columnNumber: 5
+    }, this);
+}
+_c1 = FolderCard;
 function Home() {
     _s();
     const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("home");
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [search, setSearch] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [courseId, setCourseId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [weekId, setWeekId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const all = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "Home.useMemo[all]": ()=>[
                 ...__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["books"],
@@ -278,11 +618,13 @@ function Home() {
                 ...__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pictures"]
             ]
     }["Home.useMemo[all]"], []);
-    const selected = active === "books" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["books"] : active === "journals" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["journals"] : active === "pictures" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pictures"] : __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["books"].slice(0, 3);
+    const selected = active === "books" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["books"] : active === "courses" ? [] : active === "journals" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["journals"] : active === "pictures" ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pictures"] : __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["books"].slice(0, 3);
     const shown = search ? all.filter((x)=>`${x.title} ${x.description} ${x.category}`.toLowerCase().includes(search.toLowerCase())) : selected;
     const label = active === "home" ? "Featured resources" : active[0].toUpperCase() + active.slice(1);
     const choose = (tab)=>{
         setActive(tab);
+        setCourseId(null);
+        setWeekId(null);
         setOpen(false);
         setSearch("");
     };
@@ -304,12 +646,12 @@ function Home() {
                     className: "fixed inset-0 z-30 bg-[#06241e]/45 backdrop-blur-sm lg:hidden"
                 }, void 0, false, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 106,
+                    lineNumber: 155,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 104,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -324,12 +666,12 @@ function Home() {
                                     size: 23
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 121,
+                                lineNumber: 170,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -339,7 +681,7 @@ function Home() {
                                         children: "FEDERAL MEDICAL CENTRE"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 174,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -347,13 +689,13 @@ function Home() {
                                         children: "BIDA"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 124,
+                                lineNumber: 173,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -361,18 +703,18 @@ function Home() {
                                 className: "ml-auto text-slate-400 lg:hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 185,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 132,
+                                lineNumber: 181,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 120,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -383,7 +725,7 @@ function Home() {
                                 children: "Your learning space"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 140,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -391,13 +733,13 @@ function Home() {
                                 children: "Knowledge for healthier communities."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 143,
+                                lineNumber: 192,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 139,
+                        lineNumber: 188,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -411,19 +753,19 @@ function Home() {
                                         strokeWidth: 2.25
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 207,
                                         columnNumber: 15
                                     }, this),
                                     label
                                 ]
                             }, id, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 149,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 147,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -442,7 +784,7 @@ function Home() {
                                                         children: "Library collection"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 167,
+                                                        lineNumber: 216,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -454,36 +796,36 @@ function Home() {
                                                                 children: "resources"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
-                                                                lineNumber: 172,
+                                                                lineNumber: 221,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 219,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 215,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
                                                 className: "text-[#b5da6a]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 226,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 214,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        onClick: ()=>choose("books"),
+                                        onClick: ()=>choose("courses"),
                                         className: "mt-4 flex items-center gap-1 text-xs font-bold text-[#d8f3dc] hover:text-white",
                                         children: [
                                             "Explore library ",
@@ -491,19 +833,19 @@ function Home() {
                                                 size: 14
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 232,
                                                 columnNumber: 31
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 179,
+                                        lineNumber: 228,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 164,
+                                lineNumber: 213,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -513,26 +855,26 @@ function Home() {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 187,
+                                        lineNumber: 236,
                                         columnNumber: 13
                                     }, this),
                                     "Log out"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 186,
+                                lineNumber: 235,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 163,
+                        lineNumber: 212,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 115,
+                lineNumber: 164,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -546,12 +888,12 @@ function Home() {
                                 className: "grid size-11 place-items-center rounded-xl bg-white/10 text-white ring-1 ring-white/20 lg:hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 247,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 194,
+                                lineNumber: 243,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -561,20 +903,20 @@ function Home() {
                                         size: 19
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 250,
                                         columnNumber: 13
                                     }, this),
                                     "Department of Community Health, Federal Medical Centre Bida."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 200,
+                                lineNumber: 249,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 193,
+                        lineNumber: 242,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -595,15 +937,15 @@ function Home() {
                                         className: "absolute -right-16 -top-20 size-72 rounded-full border-[28px] border-[#b3dc77]/15"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 214,
+                                        lineNumber: 263,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "relative text-xs font-bold uppercase tracking-[.22em] text-[#008C7A]",
-                                        children: "FMC Bida digital library"
+                                        children: "Community Health Department digital library"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 215,
+                                        lineNumber: 264,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -612,7 +954,7 @@ function Home() {
                                             "Learn. Serve.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 269,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -620,7 +962,7 @@ function Home() {
                                                 children: "Strengthen"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 221,
+                                                lineNumber: 270,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -628,27 +970,27 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 267,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "relative mt-5 max-w-xl text-base leading-relaxed text-[#008C7A]",
-                                        children: "Curated books, journals and visual resources for the Department of Community Health."
+                                        children: "Courses, learning materials, journals and visual resources for the Department of Community Health."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 224,
+                                        lineNumber: 273,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "relative mt-8 flex flex-wrap gap-3 cursor-pointer",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: ()=>choose("books"),
+                                                onClick: ()=>choose("courses"),
                                                 className: "rounded-xl bg-[#008C7A] px-5 py-3 text-sm font-bold text-[#fff] hover:text-[#008C7A] duration-500 cursor-pointer transition hover:bg-[#008C7A]/50",
-                                                children: "Browse the library"
+                                                children: "Browse courses"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 278,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -657,19 +999,19 @@ function Home() {
                                                 children: "Latest journals"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 235,
+                                                lineNumber: 284,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 277,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 209,
+                                lineNumber: 258,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -682,21 +1024,45 @@ function Home() {
                                                 children: "Resource centre"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 245,
+                                                lineNumber: 294,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "display-font mt-1 text-3xl text-black",
-                                                children: search ? "Search results" : label
-                                            }, void 0, false, {
+                                                children: [
+                                                    search ? "Search results" : label,
+                                                    !search && active === "courses" && courseId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-[#bce47a]",
+                                                        children: [
+                                                            " / ",
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].find((course)=>course.id === courseId)?.title
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/page.tsx",
+                                                        lineNumber: 300,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    !search && active === "courses" && weekId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-[#bce47a]",
+                                                        children: [
+                                                            " / ",
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].find((course)=>course.id === courseId)?.weeks.find((week)=>week.id === weekId)?.title
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/page.tsx",
+                                                        lineNumber: 303,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 248,
+                                                lineNumber: 297,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 293,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -707,7 +1073,7 @@ function Home() {
                                                 className: "text-[#008C7A]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 253,
+                                                lineNumber: 308,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -717,42 +1083,131 @@ function Home() {
                                                 className: "w-full bg-transparent text-sm outline-none placeholder:text-[#008C7A]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 254,
+                                                lineNumber: 309,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 307,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 243,
+                                lineNumber: 292,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            active === "courses" && !search ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                children: [
+                                    courseId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>weekId ? setWeekId(null) : setCourseId(null),
+                                        className: "mt-5 rounded-lg border border-[#008C7A] bg-[#008C7A] px-3 py-2 text-sm font-bold text-white transition hover:border-[#0f4a3e] hover:bg-[#0f4a3e]",
+                                        children: [
+                                            "← Back ",
+                                            weekId ? "to weeks" : "to courses"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 320,
+                                        columnNumber: 17
+                                    }, this),
+                                    !courseId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3",
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].map((course, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FolderCard, {
+                                                title: course.title,
+                                                description: course.description,
+                                                category: "Course",
+                                                count: `${course.weeks.length} ${course.weeks.length === 1 ? "week" : "weeks"} · ${course.weeks.reduce((sum, week)=>sum + week.files.length, 0)} files`,
+                                                image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+                                                index: index,
+                                                onClick: ()=>setCourseId(course.id)
+                                            }, course.id, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 327,
+                                                columnNumber: 21
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 325,
+                                        columnNumber: 17
+                                    }, this) : !weekId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3",
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].find((course)=>course.id === courseId)?.weeks.map((week, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FolderCard, {
+                                                title: week.title,
+                                                description: `${week.files.length} ${week.files.length === 1 ? "file" : "files"} in this week.`,
+                                                category: "Week",
+                                                count: `${week.files.length} ${week.files.length === 1 ? "file" : "files"}`,
+                                                image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
+                                                index: index,
+                                                onClick: ()=>setWeekId(week.id)
+                                            }, week.id, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 333,
+                                                columnNumber: 21
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 331,
+                                        columnNumber: 17
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3",
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].find((course)=>course.id === courseId)?.weeks.find((week)=>week.id === weekId)?.files.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ResourceCard, {
+                                                resource: item,
+                                                index: i
+                                            }, item.id, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 338,
+                                                columnNumber: 135
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 337,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 318,
+                                columnNumber: 13
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3",
                                 children: shown.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ResourceCard, {
                                         resource: item,
                                         index: i
                                     }, item.id, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 264,
-                                        columnNumber: 15
+                                        lineNumber: 344,
+                                        columnNumber: 39
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 262,
-                                columnNumber: 11
+                                lineNumber: 343,
+                                columnNumber: 13
                             }, this),
-                            shown.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            active === "courses" && !search && __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$helpers$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["courses"].length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]",
+                                children: [
+                                    "Courses are ready to be added. Add each course, its weeks, and each week’s files in the courses data in ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                        children: "app/helpers.tsx"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 349,
+                                        columnNumber: 119
+                                    }, this),
+                                    "."
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 348,
+                                columnNumber: 13
+                            }, this) : shown.length === 0 && (search || active !== "courses") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]",
                                 children: "No resources found. Try another keyword."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 268,
+                                lineNumber: 352,
                                 columnNumber: 13
                             }, this),
                             active === "home" && !search && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -774,7 +1229,7 @@ function Home() {
                                         "Study support",
                                         "24/7",
                                         "A resource hub on your schedule",
-                                        "books"
+                                        "courses"
                                     ]
                                 ].map(([title, count, desc, tab])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>choose(tab),
@@ -785,7 +1240,7 @@ function Home() {
                                                 children: count
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 301,
+                                                lineNumber: 385,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -793,7 +1248,7 @@ function Home() {
                                                 children: title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 302,
+                                                lineNumber: 386,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -801,44 +1256,45 @@ function Home() {
                                                 children: desc
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 303,
+                                                lineNumber: 387,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, title, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 380,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 273,
+                                lineNumber: 357,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 208,
+                        lineNumber: 257,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 192,
+                lineNumber: 241,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 103,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 }
-_s(Home, "V8tGfbB6N4NOJMXZpczDvYUEs2Y=");
-_c1 = Home;
-var _c, _c1;
+_s(Home, "5fskDk9R4O8vOFmWQIqioE32X6M=");
+_c2 = Home;
+var _c, _c1, _c2;
 __turbopack_context__.k.register(_c, "ResourceCard");
-__turbopack_context__.k.register(_c1, "Home");
+__turbopack_context__.k.register(_c1, "FolderCard");
+__turbopack_context__.k.register(_c2, "Home");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

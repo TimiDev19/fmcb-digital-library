@@ -16,12 +16,13 @@ import {
   X,
 } from "lucide-react";
 import { useMemo, useState } from "react";
-import { books, journals, pictures, Resource } from "./helpers";
+import { books, courses, journals, pictures, Resource } from "./helpers";
 
-type Tab = "home" | "books" | "journals" | "pictures";
+type Tab = "home" | "books" | "courses" | "journals" | "pictures";
 const nav: { id: Tab; label: string; icon: typeof BookOpen }[] = [
   { id: "home", label: "Home", icon: LibraryBig },
   { id: "books", label: "Books", icon: BookOpen },
+  { id: "courses", label: "Courses", icon: GraduationCap },
   { id: "journals", label: "Journals", icon: FileText },
   { id: "pictures", label: "Pictures", icon: GalleryVerticalEnd },
 ];
@@ -70,14 +71,60 @@ function ResourceCard({
   );
 }
 
+function FolderCard({
+  title,
+  description,
+  category,
+  count,
+  image,
+  index,
+  onClick,
+}: {
+  title: string;
+  description: string;
+  category: string;
+  count: string;
+  image: string;
+  index: number;
+  onClick: () => void;
+}) {
+  return (
+    <motion.button
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.06 }}
+      onClick={onClick}
+      className="group overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+    >
+      <div className="relative h-36 overflow-hidden">
+        <img src={image} alt="" className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent" />
+        <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">{category}</span>
+      </div>
+      <div className="p-4">
+        <p className="text-base font-bold leading-snug text-[#15342c]">{title}</p>
+        <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500">{description}</p>
+        <div className="mt-4 flex items-center justify-between text-xs font-bold text-[#167159]">
+          <span>{count}</span>
+          <ChevronRight size={16} />
+        </div>
+      </div>
+    </motion.button>
+  );
+}
+
 export default function Home() {
   const [active, setActive] = useState<Tab>("home");
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [courseId, setCourseId] = useState<string | null>(null);
+  const [weekId, setWeekId] = useState<string | null>(null);
   const all = useMemo(() => [...books, ...journals, ...pictures], []);
   const selected =
     active === "books"
       ? books
+      : active === "courses"
+      ? []
       : active === "journals"
       ? journals
       : active === "pictures"
@@ -96,6 +143,8 @@ export default function Home() {
       : active[0].toUpperCase() + active.slice(1);
   const choose = (tab: Tab) => {
     setActive(tab);
+    setCourseId(null);
+    setWeekId(null);
     setOpen(false);
     setSearch("");
   };
@@ -177,7 +226,7 @@ export default function Home() {
               <BookOpen className="text-[#b5da6a]" />
             </div>
             <button
-              onClick={() => choose("books")}
+              onClick={() => choose("courses")}
               className="mt-4 flex items-center gap-1 text-xs font-bold text-[#d8f3dc] hover:text-white"
             >
               Explore library <ChevronRight size={14} />
@@ -213,7 +262,7 @@ export default function Home() {
           >
             <div className="absolute -right-16 -top-20 size-72 rounded-full border-[28px] border-[#b3dc77]/15" />
             <p className="relative text-xs font-bold uppercase tracking-[.22em] text-[#008C7A]">
-              FMC Bida digital library
+              Community Health Department digital library
             </p>
             <h1 className="display-font relative mt-3 max-w-3xl text-black text-4xl leading-[1.03] sm:text-5xl lg:text-6xl">
               Learn. Serve.
@@ -222,15 +271,15 @@ export default function Home() {
               communities.
             </h1>
             <p className="relative mt-5 max-w-xl text-base leading-relaxed text-[#008C7A]">
-              Curated books, journals and visual resources for the Department of
+              Courses, learning materials, journals and visual resources for the Department of
               Community Health.
             </p>
             <div className="relative mt-8 flex flex-wrap gap-3 cursor-pointer">
               <button
-                onClick={() => choose("books")}
+                onClick={() => choose("courses")}
                 className="rounded-xl bg-[#008C7A] px-5 py-3 text-sm font-bold text-[#fff] hover:text-[#008C7A] duration-500 cursor-pointer transition hover:bg-[#008C7A]/50"
               >
-                Browse the library
+                Browse courses
               </button>
               <button
                 onClick={() => choose("journals")}
@@ -247,6 +296,12 @@ export default function Home() {
               </p>
               <h2 className="display-font mt-1 text-3xl text-black">
                 {search ? "Search results" : label}
+                {!search && active === "courses" && courseId && (
+                  <span className="text-[#bce47a]"> / {courses.find((course) => course.id === courseId)?.title}</span>
+                )}
+                {!search && active === "courses" && weekId && (
+                  <span className="text-[#bce47a]"> / {courses.find((course) => course.id === courseId)?.weeks.find((week) => week.id === weekId)?.title}</span>
+                )}
               </h2>
             </div>
             <label className="flex w-full items-center gap-2 rounded-xl border border-[#008C7A]/25 bg-[#008C7A]/10 px-4 py-3 text-[#008C7A] backdrop-blur-sm md:w-80">
@@ -259,12 +314,41 @@ export default function Home() {
               />
             </label>
           </div>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {shown.map((item, i) => (
-              <ResourceCard key={item.id} resource={item} index={i} />
-            ))}
-          </div>
-          {shown.length === 0 && (
+          {active === "courses" && !search ? (
+            <>
+              {courseId && (
+                <button onClick={() => weekId ? setWeekId(null) : setCourseId(null)} className="mt-5 rounded-lg border border-[#008C7A] bg-[#008C7A] px-3 py-2 text-sm font-bold text-white transition hover:border-[#0f4a3e] hover:bg-[#0f4a3e]">
+                  ← Back {weekId ? "to weeks" : "to courses"}
+                </button>
+              )}
+              {!courseId ? (
+                <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                  {courses.map((course, index) => (
+                    <FolderCard key={course.id} title={course.title} description={course.description} category="Course" count={`${course.weeks.length} ${course.weeks.length === 1 ? "week" : "weeks"} · ${course.weeks.reduce((sum, week) => sum + week.files.length, 0)} files`} image="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80" index={index} onClick={() => setCourseId(course.id)} />
+                  ))}
+                </div>
+              ) : !weekId ? (
+                <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                  {courses.find((course) => course.id === courseId)?.weeks.map((week, index) => (
+                    <FolderCard key={week.id} title={week.title} description={`${week.files.length} ${week.files.length === 1 ? "file" : "files"} in this week.`} category="Week" count={`${week.files.length} ${week.files.length === 1 ? "file" : "files"}`} image="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80" index={index} onClick={() => setWeekId(week.id)} />
+                  ))}
+                </div>
+              ) : (
+                <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                  {courses.find((course) => course.id === courseId)?.weeks.find((week) => week.id === weekId)?.files.map((item, i) => <ResourceCard key={item.id} resource={item} index={i} />)}
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              {shown.map((item, i) => <ResourceCard key={item.id} resource={item} index={i} />)}
+            </div>
+          )}
+          {active === "courses" && !search && courses.length === 0 ? (
+            <div className="mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]">
+              Courses are ready to be added. Add each course, its weeks, and each week’s files in the courses data in <code>app/helpers.tsx</code>.
+            </div>
+          ) : shown.length === 0 && (search || active !== "courses") && (
             <div className="mt-5 rounded-2xl border border-dashed border-white/30 px-6 py-12 text-center text-[#d5e7d9]">
               No resources found. Try another keyword.
             </div>
@@ -289,7 +373,7 @@ export default function Home() {
                     "Study support",
                     "24/7",
                     "A resource hub on your schedule",
-                    "books",
+                    "courses",
                   ],
                 ] as const
               ).map(([title, count, desc, tab]) => (
