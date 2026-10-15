@@ -23,6 +23,26 @@ export type Course = {
 
 export const books: Resource[] = [
   {
+    id: "32",
+    title: "Jekel’s Epidemiology, Biostatistics, Preventive Medicine, and Public",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book32.png",
+    link: "https://drive.google.com/file/d/1752M44Qj-RkOj2yp56llaUWMkXTd_qAD/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "33",
+    title: "Leon Gordis Epidemioly  6th Edition",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book33.png",
+    link: "https://drive.google.com/file/d/1R21Twd6PEnubjdw_pG34GovuIlzdl2v5/view?usp=sharing",
+    year: "",
+  },
+  {
     id: "1",
     title: "QUANTITATIVE METHODS IN HEALTH CARE MANAGEMENT",
     description: "Techniques and Applications",
