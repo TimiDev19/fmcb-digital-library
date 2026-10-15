@@ -57,6 +57,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-slate-50: #f8fafc;
     --color-slate-200: #e2e8f0;
     --color-slate-400: #90a1b9;
     --color-slate-500: #62748e;
@@ -104,6 +105,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-slate-50: lab(98.1434% -.369519 -1.05966);
       --color-slate-200: lab(91.7353% -.998765 -4.76968);
       --color-slate-400: lab(65.5349% -2.25151 -14.5072);
       --color-slate-500: lab(48.0876% -2.03595 -16.5814);
@@ -360,6 +362,10 @@
 @layer components;
 
 @layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
+
   .absolute {
     position: absolute;
   }
@@ -489,6 +495,10 @@
     height: calc(var(--spacing) * 36);
   }
 
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
+
   .h-full {
     height: 100%;
   }
@@ -557,6 +567,10 @@
 
   .justify-between {
     justify-content: space-between;
+  }
+
+  .justify-center {
+    justify-content: center;
   }
 
   .gap-1 {
@@ -719,6 +733,10 @@
     background-color: #f5f7f4;
   }
 
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+
   .bg-transparent {
     background-color: #0000;
   }
@@ -762,6 +780,17 @@
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
+  .from-\[\#102e28\]\/35 {
+    --tw-gradient-from: #102e2859;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  @supports (color: lab(0% 0 0)) {
+    .from-\[\#102e28\]\/35 {
+      --tw-gradient-from: lab(16.516% -13.112 .306129 / .35);
+    }
+  }
+
   .from-\[\#102e28\]\/55 {
     --tw-gradient-from: #102e288c;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -776,6 +805,10 @@
   .to-transparent {
     --tw-gradient-to: transparent;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .object-contain {
+    object-fit: contain;
   }
 
   .object-cover {
@@ -1138,6 +1171,10 @@
       --tw-scale-z: 105%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
+
+    .group-hover\:scale-\[1\.02\]:is(:where(.group):hover *) {
+      scale: 1.02;
+    }
   }
 
   .placeholder\:text-\[\#008C7A\]::placeholder {
@@ -1204,6 +1241,10 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:h-72 {
+      height: calc(var(--spacing) * 72);
+    }
+
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }

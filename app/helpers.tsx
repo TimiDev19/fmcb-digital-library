@@ -24,63 +24,303 @@ export type Course = {
 export const books: Resource[] = [
   {
     id: "1",
-    title: "Demography Analysis and Synthesis.",
-    description: "A treatise in population.",
+    title: "QUANTITATIVE METHODS IN HEALTH CARE MANAGEMENT",
+    description: "Techniques and Applications",
     category: "Core text",
     image:
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/1lmKfuSjZwn5AY08D3JrQWcKtBZd2RT31/view?usp=drive_link",
-    year: "Download Now",
+      "/books/book1.png",
+    link: "https://drive.google.com/file/d/1S5aHh41S7GY0Jxpx6n4fS3hzaldikkGJ/view?usp=sharing",
+    year: "Yasar A. Ozcan",
   },
   {
     id: "2",
-    title: "Using ArcGIS Spatial Analyst",
-    description: "GIS by ESRI",
+    title: "Data Analysis Using Regression and Multilevel/Heirarchial Models",
+    description: "",
     category: "Core text",
     image:
-      "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/13brRDiVR7kutUXsbSZs92spBG7J3K7nd/view?usp=drive_link",
-    year: "Download Now",
+      "/books/book2.png",
+    link: "https://drive.google.com/file/d/1uTY1uNxN6eXNcNAqojYulkkfDr32x9qy/view?usp=sharing",
+    year: "Andrew Gelhan & Jennifer Hill",
   },
   {
     id: "3",
-    title: "Fundamentals of Biostatistics (7th Edition)",
+    title: "A Handbook of Statistical Analyses using Stata",
     description: "",
     category: "Core text",
     image:
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/1QmWYp49IMASE5L14XAWMD8BhtJrttm5i/view?usp=drive_link",
-    year: "Download Now",
+      "/books/book3.png",
+    link: "https://drive.google.com/file/d/1IK3XnI8FXy1BtklJgIoYR8-wQA0ll1m_/view?usp=sharing",
+    year: "Sophia Rabe-Hesketh & Brian Everitt",
   },
   {
     id: "4",
-    title: "Handbook of Epidemiology",
+    title: "A Practical Guide for Health Researchers",
     description: "",
     category: "Core text",
     image:
-      "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/1Jz2iHjDcPLovcA-kQ7ktbd9NOHoNn1nJ/view?usp=drive_link",
-    year: "Download Now",
+      "/books/book4.png",
+    link: "https://drive.google.com/file/d/1qhU7lBQrx8lSzAiFZPyHTSiSg9dWDEZ5/view?usp=sharing",
+    year: "Mahmoud F. Fathalla",
   },
   {
     id: "5",
-    title: "Principles and Practice of Surgery",
-    description: "Including pathology in the tropics",
-    category: "Core text",
-    image:
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/1Jz2iHjDcPLovcA-kQ7ktbd9NOHoNn1nJ/view?usp=drive_link",
-    year: "Download Now",
-  },
-  {
-    id: "6",
-    title: "Oxford Textbook of Public Health 4th Edition",
+    title: "A Primer for Benefit Cost Analysis",
     description: "",
     category: "Core text",
     image:
-      "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/file/d/1u9uEKBuj45p5DYOYuQegG67TEArlkhvj/view?usp=drive_link",
-    year: "Download Now",
+      "/books/book5.png",
+    link: "https://drive.google.com/file/d/1NOCdQBcEaQ3sbC3ZCF-CE97oHJ2hFwRv/view?usp=sharing",
+    year: "Richard O. Zerbe Jr. & Allen S. Bellas",
+  },
+  {
+    id: "6",
+    title: "A Short Introduction to Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book6.png",
+    link: "https://drive.google.com/file/d/1oVwWtWnoqD-zwyU_zt_is-29BRAEQjE0/view?usp=sharing",
+    year: "Neil Pearce",
+  },
+  {
+    id: "7",
+    title: "Advanced modelling in finance using Excel and VBA",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book7.png",
+    link: "https://drive.google.com/file/d/1eRDkggJ_plrRbp6WbkhmG75lTJJIMPUL/view?usp=sharing",
+    year: "Mary Jackson & Mike Staunton",
+  },
+  {
+    id: "8",
+    title: "An Introduction to Regression Graphics",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book8.png",
+    link: "https://drive.google.com/file/d/1mK4VOaDOhGVZlykDSJVqAQy1BILFgmSg/view?usp=sharing",
+    year: "R. Dennis Cook & Sanford Weisberg",
+  },
+  {
+    id: "9",
+    title: "Applied Cost Benefit Analysis",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book9.png",
+    link: "https://drive.google.com/file/d/1VB2FOsiFwqn0cYC5Q1SmrPNP9jLlIcsX/view?usp=sharing",
+    year: "Robert J. Brent",
+  },
+  {
+    id: "10",
+    title: "Applied Longitudinal Data Analysis for Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book10.png",
+    link: "https://drive.google.com/file/d/1tsP_OU-dCFhSQoHUWTROsGg8ciBvN5wt/view?usp=sharing",
+    year: "Jos Twisk",
+  },
+  {
+    id: "11",
+    title: "Studies in Empirical Economics",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book11.png",
+    link: "https://drive.google.com/file/d/1edMgnFOpDAAKLsyFQC_2MVHjffjKaaVm/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "12",
+    title: "ASSESSING QUALITY, OUTCOME AND PERFORMANCE MANAGEMENT",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book12.png",
+    link: "https://drive.google.com/file/d/19H0OI5Z3EvR-Nxk-Mnz7_DEDRSfax0y5/view?usp=sharing",
+    year: "Dr Javier Martinez",
+  },
+  {
+    id: "13",
+    title: "Advances in Statistical Methods for the Health Sciences",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book13.png",
+    link: "https://drive.google.com/file/d/1y9xRDhqmlM7k9Y4fsqsi-n7c2XALY3kF/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "14",
+    title: "Basic Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book14.png",
+    link: "https://drive.google.com/file/d/1lFJ-H2N7cEOffRoqiq1qaz83lUK5gzIp/view?usp=sharing",
+    year: "R. Bonita & R. Baeglehole & T. Kjellstrom",
+  },
+  {
+    id: "15",
+    title: "Basic Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book15.png",
+    link: "https://drive.google.com/file/d/1lz-oARm_JZeCrt94yPChlTkRPDsTQguP/view?usp=sharing",
+    year: "R. Bonita & R. Baeglehole & T. Kjellstrom",
+  },
+  {
+    id: "16",
+    title: "Basic Statistics For Clinicians",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book16.png",
+    link: "https://drive.google.com/file/d/1jWJeYkBO4BXE0A8vP1j9l5mzlogf8LxI/view?usp=sharing",
+    year: "Gordon Guyatt, Md; & Roman Jaeschke, Md; & Nancy Heddle, Msc; & Deborah Cook, Md; & Harry Shannon, Phd; & Stephen Walter, Phd",
+  },
+  {
+    id: "17",
+    title: "Bayesian Computation With R (2nd Edition)",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book17.png",
+    link: "https://drive.google.com/file/d/178-vyf8NxtMFp6hmdSWH0SIfsc41ApPe/view?usp=sharing",
+    year: "Jim Albert",
+  },
+  {
+    id: "18",
+    title: "Bayesian Modelling with winBUGS",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book18.png",
+    link: "https://drive.google.com/file/d/1mW6tnqeefNDnJFpGTcrgbENYqKFbi2x4/view?usp=sharing",
+    year: "Ioannis Ntzoufras",
+  },
+  {
+    id: "19",
+    title: "Biostatistics for Health Sciences",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book19.png",
+    link: "https://drive.google.com/file/d/125SjckqzCjLj6KJ_vdYSksG-wpYFA3Id/view?usp=sharing",
+    year: "Wayne W. Daniel & Chad L. Cross",
+  },
+  {
+    id: "20",
+    title: "Applied Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book20.png",
+    link: "https://drive.google.com/file/d/1k6fsTQrxkpU9P6WV_OK6jCgisIGDcTGi/view?usp=sharing",
+    year: "Ross C. Brownson & Diana B. Petitti",
+  },
+  {
+    id: "21",
+    title: "An Introduction to Categorical Data Analysis",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book21.png",
+    link: "https://drive.google.com/file/d/12MY223Rbm76L34jm1L4pBgNzpyo0r-Ww/view?usp=sharing",
+    year: "Alan Agresti",
+  },
+  {
+    id: "22",
+    title: "Principles of EPIDEMIOLOGY",
+    description: "An Introduction to Applied Epidemiology and Biostatistics",
+    category: "Core text",
+    image:
+      "/books/book22.png",
+    link: "https://drive.google.com/file/d/1F8lPNQ3OsBs2qDIKgGXW4NHCP86BdYoU/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "23",
+    title: "Statistical Analysis of Cost-Effectiveness Data",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book23.png",
+    link: "https://drive.google.com/file/d/1hiEOqVQ8hFjQuB4rk5jYfgCxYkOmREtj/view?usp=sharing",
+    year: "Andrew R. Willian & Andrew H. Briggs",
+  },
+  {
+    id: "24",
+    title: "Clinical Epidemiology",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book24.png",
+    link: "https://drive.google.com/file/d/1AWT0ZVkrPee8rpPJOHVhNyJexmDfdKWO/view?usp=sharing",
+    year: "Robert H. Fletcher & Suzanne W. Fletcher & Grant S. Fletcher",
+  },
+  {
+    id: "25",
+    title: "Cochrane Handbook for Systematic Reviews of Interventions",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book25.png",
+    link: "https://drive.google.com/file/d/1GyCQ9D17F4jy2plolQmXgubrZKc74Tq7/view?usp=sharing",
+    year: "Julian PT Higgins and Sally Green",
+  },
+  {
+    id: "26",
+    title: "Data Manipulation with R (Use R)",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book26.png",
+    link: "https://drive.google.com/file/d/1BkCl_1KEgIa-_WQf81gQAIwXDToSvJlG/view?usp=sharing",
+    year: "Robert Gentleman & Kurt Hornik & Giovanni Parmigiani",
+  },
+  {
+    id: "27",
+    title: "Demography Analysis and Synthesis",
+    description: "A Treatis in Population",
+    category: "Core text",
+    image:
+      "/books/book27.png",
+    link: "https://drive.google.com/file/d/1LFHXMd3_WHZ2iTIN8-w_pWvjsABvRz-y/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "28",
+    title: "Designing and conducting health system research projects VOL 1",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book28.png",
+    link: "https://drive.google.com/file/d/1Lu8YWyEM504xd26nLtSapFc-zZBs0E4A/view?usp=sharing",
+    year: "Corlien M. Varkevisser & Indra Pathmanathan & Ann Brownlee",
+  },
+  {
+    id: "29",
+    title: "Designing and conducting health system research projects VOL 2",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book29.png",
+    link: "https://drive.google.com/file/d/1mj7i8KCxXxCBhXP4WAnK9NG76eRD0sXM/view?usp=sharing",
+    year: "Corlien M. Varkevisser & Indra Pathmanathan & Ann Brownlee",
+  },
+  {
+    id: "30",
+    title: "Building Capacities for Risk Reduction",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book30.png",
+    link: "https://drive.google.com/file/d/1ChkcW38D1CY55_YeTOaYHsluU1-NDtWK/view?usp=sharing",
+    year: "Corlien M. Varkevisser & Indra Pathmanathan & Ann Brownlee",
   },
 ];
 
@@ -89,7 +329,7 @@ export const books: Resource[] = [
 export const courses: Course[] = [
   {
     id: "1",
-    title: "CMH Course",
+    title: "Clinical Management of HIV Course",
     description: "",
     weeks: [
       {
@@ -154,7 +394,7 @@ export const courses: Course[] = [
   },
   {
     id: "2",
-    title: "EEGH Course",
+    title: "Economic Evaluation in Global Health Course",
     description: "",
     weeks: [
       {
@@ -205,7 +445,7 @@ export const courses: Course[] = [
   },
   {
     id: "3",
-    title: "GHR Course",
+    title: "Global Health Research Course",
     description: "",
     weeks: [
       {
@@ -296,7 +536,7 @@ export const courses: Course[] = [
   },
   {
     id: "4",
-    title: "M&E University of Washington",
+    title: "Monitoring & Evaluation in Global Health",
     description: "",
     weeks: [
       {

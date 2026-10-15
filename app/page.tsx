@@ -44,16 +44,16 @@ function ResourceCard({
       rel="noreferrer"
       className="group overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
     >
-      <div className="relative h-36 overflow-hidden">
+      <div className="relative flex h-64 items-center justify-center overflow-hidden bg-slate-50 sm:h-72">
         <img
           src={resource.image}
           alt=""
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          className="h-full w-full object-contain transition duration-500 group-hover:scale-[1.02]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent" />
-        <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#102e28]/35 to-transparent" />
+        {/* <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">
           {resource.category}
-        </span>
+        </span> */}
       </div>
       <div className="p-4">
         <p className="text-base font-bold leading-snug text-[#15342c]">
@@ -96,13 +96,13 @@ function FolderCard({
       onClick={onClick}
       className="group overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
     >
-      <div className="relative h-36 overflow-hidden">
+      <div className="relative flex h-64 items-center justify-center overflow-hidden bg-slate-50 sm:h-72">
         <img
           src={image}
           alt=""
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          className="h-full w-full object-contain transition duration-500 group-hover:scale-[1.02]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#102e28]/55 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#102e28]/35 to-transparent" />
         <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#135245]">
           {category}
         </span>
@@ -274,7 +274,7 @@ export default function Home() {
           >
             <div className="absolute -right-16 -top-20 size-72 rounded-full border-[28px] border-[#b3dc77]/15" />
             <p className="relative text-xs font-bold uppercase tracking-[.22em] text-[#008C7A]">
-              Community Health Department digital library
+              digital library
             </p>
             <h1 className="display-font relative mt-3 max-w-3xl text-black text-4xl leading-[1.03] sm:text-5xl lg:text-6xl">
               Discover. Learn.
@@ -293,13 +293,13 @@ export default function Home() {
                 onClick={() => choose("courses")}
                 className="rounded-xl bg-[#008C7A] px-5 py-3 text-sm font-bold text-[#fff] hover:text-[#008C7A] duration-500 cursor-pointer transition hover:bg-[#008C7A]/50"
               >
-                Browse course materials
+                Browse books
               </button>
               <button
                 onClick={() => choose("journals")}
                 className="rounded-xl cursor-pointer border border-[#008C7A]/25 bg-[#008C7A]/10 px-5 py-3 text-sm font-bold text-[#008C7A] transition hover:bg-white/20"
               >
-                Latest journals
+                Browse journals
               </button>
             </div>
           </motion.div>
