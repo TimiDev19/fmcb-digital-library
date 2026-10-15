@@ -282,6 +282,15 @@ const books = [
         image: "/books/book30.png",
         link: "https://drive.google.com/file/d/1ChkcW38D1CY55_YeTOaYHsluU1-NDtWK/view?usp=sharing",
         year: "Corlien M. Varkevisser & Indra Pathmanathan & Ann Brownlee"
+    },
+    {
+        id: "31",
+        title: "Evidence-based Medicine Toolkit",
+        description: "",
+        category: "Core text",
+        image: "/books/book31.png",
+        link: "https://drive.google.com/file/d/1cGZz064c4IbzqQk05ORGpwl7gs5GqurT/view?usp=sharing",
+        year: "Carl Heneghan and Douglas Badenoch"
     }
 ];
 const courses = [
@@ -522,29 +531,360 @@ const journals = [
     }
 ];
 const pictures = [
+    // {
+    //   id: "picture-outreach",
+    //   title: "Community Outreach",
+    //   description:
+    //     "Snapshots from preventive care and health education activities.",
+    //   category: "Department gallery",
+    //   image:
+    //     "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=1000&q=80",
+    //   link: "https://drive.google.com/",
+    // },
+    // {
+    //   id: "picture-learning",
+    //   title: "Learning Together",
+    //   description: "Training, mentoring and shared practice in the department.",
+    //   category: "Department gallery",
+    //   image:
+    //     "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1000&q=80",
+    //   link: "https://drive.google.com/",
+    // },
     {
-        id: "picture-outreach",
-        title: "Community Outreach",
-        description: "Snapshots from preventive care and health education activities.",
+        id: "1",
+        title: "",
+        description: "",
         category: "Department gallery",
-        image: "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=1000&q=80",
-        link: "https://drive.google.com/"
+        image: "/pictures/1.jpg",
+        link: "https://drive.google.com/file/d/1Zu3GElFVylwxbcr3yXO0NW3wTp5Masct/view?usp=drive_link"
     },
     {
-        id: "picture-learning",
-        title: "Learning Together",
-        description: "Training, mentoring and shared practice in the department.",
+        id: "2",
+        title: "",
+        description: "",
         category: "Department gallery",
-        image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1000&q=80",
-        link: "https://drive.google.com/"
+        image: "/pictures/2.jpg",
+        link: "https://drive.google.com/file/d/1xJdz9PhGec-9-PlKl56In00G03ZMojeJ/view?usp=drive_link"
     },
     {
-        id: "picture-care",
-        title: "Care in Context",
-        description: "A visual record of compassionate community health services.",
+        id: "3",
+        title: "",
+        description: "",
         category: "Department gallery",
-        image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80",
-        link: "https://drive.google.com/"
+        image: "/pictures/3.jpg",
+        link: "https://drive.google.com/file/d/1j19lyYvk-Smzj9WynwXyb05dXktn5nCB/view?usp=drive_link"
+    },
+    {
+        id: "4",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/4.jpg",
+        link: "https://drive.google.com/file/d/1vtQNJIwQEldYxhzXSAOrXAcG8z8XBRxH/view?usp=drive_link"
+    },
+    {
+        id: "5",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/5.jpg",
+        link: "https://drive.google.com/file/d/1Aei6pCjOgi2g-GpmEHCegdqCM0CFcTEm/view?usp=drive_link"
+    },
+    {
+        id: "6",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/6.jpg",
+        link: "https://drive.google.com/file/d/1QjXtHDxUYAgGjgNgJIcLwlViJn0LXHvy/view?usp=drive_link"
+    },
+    {
+        id: "7",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/7.jpg",
+        link: "https://drive.google.com/file/d/1gmCzAkIudZB6EaQck9QJuVmaw-krgg5f/view?usp=drive_link"
+    },
+    {
+        id: "8",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/8.jpg",
+        link: "https://drive.google.com/file/d/1qF-vLym1DA3GxY238-OJaHM7qVm2o63b/view?usp=drive_link"
+    },
+    {
+        id: "9",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/9.jpg",
+        link: "https://drive.google.com/file/d/1677pa9wZAb5wYvkFCjgtYR7Y13QtK8DN/view?usp=drive_link"
+    },
+    {
+        id: "10",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/10.jpg",
+        link: "https://drive.google.com/file/d/1ls08BSHSqJg6at04bRiXm8MrMfb0_g4T/view?usp=drive_link"
+    },
+    {
+        id: "11",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/11.jpg",
+        link: "https://drive.google.com/file/d/1_oQQL_x8H74GT8QCcSO9nvGXP9C-aVsA/view?usp=drive_link"
+    },
+    {
+        id: "12",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/12.jpg",
+        link: "https://drive.google.com/file/d/1mXtvnD4p6cmoafE6NHdTHPH3T2DYDDuU/view?usp=drive_link"
+    },
+    {
+        id: "13",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/13.jpg",
+        link: "https://drive.google.com/file/d/1PNrp7DsW-HvujL1YvBA-B9fvx01JUKaX/view?usp=drive_link"
+    },
+    {
+        id: "14",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/14.jpg",
+        link: "https://drive.google.com/file/d/1TfDLwff6xJkt5SZRa9-pej2qDVJ1aKGk/view?usp=drive_link"
+    },
+    {
+        id: "15",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/15.jpg",
+        link: "https://drive.google.com/file/d/1NKO_p6DTFbTt-38TXhOiAiNDdNqL059S/view?usp=drive_link"
+    },
+    {
+        id: "16",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/16.jpg",
+        link: "https://drive.google.com/file/d/1q5sRhm6hCiByj7cJs2GA-sL3rH_PJBxr/view?usp=drive_link"
+    },
+    {
+        id: "17",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/17.jpg",
+        link: "https://drive.google.com/file/d/1pnhNrdEzRyIZuGdFnBLwF0d0kJWHMF9O/view?usp=drive_link"
+    },
+    {
+        id: "18",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/18.jpg",
+        link: "https://drive.google.com/file/d/1y4u1j395TMo93kE48GB3SFT8ycw-NW5Q/view?usp=drive_link"
+    },
+    {
+        id: "19",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/19.jpg",
+        link: "https://drive.google.com/file/d/1l5liS4kShGQlnTSB6-Y3tepp94lEj7TB/view?usp=drive_link"
+    },
+    {
+        id: "20",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/20.jpg",
+        link: "https://drive.google.com/file/d/1afBk6WvIFTjSF6zp8G9WzQMh_z48yvg5/view?usp=drive_link"
+    },
+    {
+        id: "21",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/21.jpg",
+        link: "https://drive.google.com/file/d/1IBHPHr3lnhSoO_zTDOdjLUjGzxKsHRmL/view?usp=drive_link"
+    },
+    {
+        id: "22",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/22.jpg",
+        link: "https://drive.google.com/file/d/11X5VrARgw4XDD5yVgsBaBVi4tU_fhYAJ/view?usp=drive_link"
+    },
+    {
+        id: "23",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/23.jpg",
+        link: "https://drive.google.com/file/d/1fQT9aqs7NtupbUMrLmR0pGwaTu1tzkSc/view?usp=drive_link"
+    },
+    {
+        id: "24",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/24.jpg",
+        link: "https://drive.google.com/file/d/12XoSPfFN12JLxNkoAIZjZWhARW0v1KLG/view?usp=drive_link"
+    },
+    {
+        id: "25",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/25.jpg",
+        link: "https://drive.google.com/file/d/1PDlwJmB8K3AEfjicykxQ3lzLOISRdGsM/view?usp=drive_link"
+    },
+    {
+        id: "26",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/26.jpg",
+        link: "https://drive.google.com/file/d/15RqIO8b9r3ng8XbPlHy_aEROXWeE35UR/view?usp=drive_link"
+    },
+    {
+        id: "27",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/27.jpg",
+        link: "https://drive.google.com/file/d/12xxvvA0s2_3qtUkRo7_auLbbtSobftSc/view?usp=drive_link"
+    },
+    {
+        id: "28",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/28.jpg",
+        link: "https://drive.google.com/file/d/1jxa9UJFPS63vb0_euOI3Bs4qyZT1ZThc/view?usp=drive_link"
+    },
+    {
+        id: "29",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/29.jpg",
+        link: "https://drive.google.com/file/d/1sIforXWRfr1JF-ZvrVDx2kMwp3yoE9rT/view?usp=drive_link"
+    },
+    {
+        id: "30",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/30.jpg",
+        link: "https://drive.google.com/file/d/1YBtO7PCEPjRi9aBIZrSMsQ7K7vxXdi6Z/view?usp=drive_link"
+    },
+    {
+        id: "31",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/31.jpg",
+        link: "https://drive.google.com/file/d/1gm-iuhqoqwpcNm-0ZGlf_lDRmL_onwEZ/view?usp=drive_link"
+    },
+    {
+        id: "32",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/32.jpg",
+        link: "https://drive.google.com/file/d/1Os667-YprYUYll3whZl5FoPs_NOzYaqw/view?usp=drive_link"
+    },
+    {
+        id: "33",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/33.jpg",
+        link: "https://drive.google.com/file/d/1bzMkhSCtZUuJIKlke6g8rBdHPBCzXh9U/view?usp=drive_link"
+    },
+    {
+        id: "34",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/34.jpg",
+        link: "https://drive.google.com/file/d/1tPVoM_4mlM7XjzQJazBwRO-6pTrzosJm/view?usp=drive_link"
+    },
+    {
+        id: "35",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/35.jpg",
+        link: "https://drive.google.com/file/d/1eF1IQU2FoML09pRWELt4-78YpHX2xODY/view?usp=drive_link"
+    },
+    {
+        id: "36",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/36.jpg",
+        link: "https://drive.google.com/file/d/17harVe0ua29XWf7dc6LZ-n1H3LTfjfva/view?usp=drive_link"
+    },
+    {
+        id: "37",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/37.jpg",
+        link: "https://drive.google.com/file/d/1IA34StKdWb0mF23NUS5ei8VSUHQAq5K9/view?usp=drive_link"
+    },
+    {
+        id: "38",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/38.jpg",
+        link: "https://drive.google.com/file/d/1oraN69GAA7vMSaanvbeZvrvNs0LNZ4Db/view?usp=drive_link"
+    },
+    {
+        id: "39",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/39.jpg",
+        link: "https://drive.google.com/file/d/1jN3ohWtZocxGbomq9i0dM0UFxmjjEYAq/view?usp=drive_link"
+    },
+    {
+        id: "40",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/40.jpg",
+        link: "https://drive.google.com/file/d/1EGjlQOfnS7IMav6dnBgVG9ympUf1LQzO/view?usp=drive_link"
+    },
+    {
+        id: "41",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/41.jpg",
+        link: "https://drive.google.com/file/d/1pwsuGAScVgp9wt2N8En9hBB9D2zp9rFk/view?usp=drive_link"
+    },
+    {
+        id: "42",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/42.jpg",
+        link: "https://drive.google.com/file/d/1I6r3C2IYv-ujx9d6E-tQWa95D8llRcE2/view?usp=drive_link"
     }
 ];
 }),
