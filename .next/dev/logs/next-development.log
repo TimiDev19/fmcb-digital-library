@@ -409,3 +409,22 @@
 {"timestamp":"03:04:11.919","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `113`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
 {"timestamp":"03:04:11.919","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `113`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
 {"timestamp":"03:04:11.919","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `113`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"03:11:06.502","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"03:11:34.148","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
+{"timestamp":"03:11:37.846","source":"Server","level":"LOG","message":"✓ Compiled in 94ms"}
+{"timestamp":"03:11:48.777","source":"Server","level":"LOG","message":"✓ Compiled in 106ms"}
+{"timestamp":"03:12:01.399","source":"Browser","level":"ERROR","message":"./app/helpers.tsx:2107:3\nError: Expected ',', got '{'\n  2105 |     link: \"https://drive.google.com/file/d/1gm-iuhqoqwpcNm-0ZG...\n  2106 |   }\n> 2107 |   {\n       |   ^\n  2108 |     id: \"32\",\n  2109 |     title: \"\",\n  2110 |     description: \"\",\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./app/helpers.tsx [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component]\n\n  Client Component SSR:\n    ./app/helpers.tsx [Client Component SSR]\n    ./app/page.tsx [Client Component SSR]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"03:12:01.399","source":"Server","level":"ERROR","message":"[browser] \"./app/helpers.tsx:2107:3\\nError: Expected ',', got '{'\\n  2105 |     link: \\\"https://drive.google.com/file/d/1gm-iuhqoqwpcNm-0ZG...\\n  2106 |   }\\n> 2107 |   {\\n       |   ^\\n  2108 |     id: \\\"32\\\",\\n  2109 |     title: \\\"\\\",\\n  2110 |     description: \\\"\\\",\\n\\nParsing ecmascript source code failed\\n\\nImport traces:\\n  Client Component Browser:\\n    ./app/helpers.tsx [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\\n\\n  Client Component SSR:\\n    ./app/helpers.tsx [Client Component SSR]\\n    ./app/page.tsx [Client Component SSR]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"03:12:26.876","source":"Server","level":"LOG","message":"✓ Compiled in 101ms"}
+{"timestamp":"03:12:47.522","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"03:13:11.637","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"03:14:15.039","source":"Server","level":"LOG","message":"✓ Compiled in 100ms"}
+{"timestamp":"03:14:21.492","source":"Server","level":"LOG","message":"✓ Compiled in 63ms"}
+{"timestamp":"03:14:23.986","source":"Server","level":"LOG","message":"✓ Compiled in 75ms"}
+{"timestamp":"03:14:46.377","source":"Server","level":"LOG","message":"✓ Compiled in 77ms"}
+{"timestamp":"03:14:49.231","source":"Server","level":"LOG","message":"✓ Compiled in 90ms"}
+{"timestamp":"03:14:51.835","source":"Server","level":"LOG","message":"✓ Compiled in 100ms"}
+{"timestamp":"03:15:50.400","source":"Server","level":"LOG","message":"✓ Compiled in 108ms"}
+{"timestamp":"03:15:55.526","source":"Server","level":"LOG","message":"✓ Compiled in 137ms"}
+{"timestamp":"03:16:00.696","source":"Server","level":"LOG","message":"✓ Compiled in 110ms"}
+{"timestamp":"03:16:35.019","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}

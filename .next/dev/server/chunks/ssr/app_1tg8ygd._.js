@@ -1969,6 +1969,22 @@ const pictures = [
         link: "https://drive.google.com/file/d/1gm-iuhqoqwpcNm-0ZGlf_lDRmL_onwEZ/view?usp=drive_link"
     },
     {
+        id: "43",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/43.png",
+        link: "https://drive.google.com/file/d/15t8JKmE1FXvUPFuvdzxZazsPcx7gnWm2/view?usp=drive_link"
+    },
+    {
+        id: "44",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/44.png",
+        link: "https://drive.google.com/file/d/1xomSV3reMSTS_Ffn3AKQ_AehyHH3llhU/view?usp=sharing"
+    },
+    {
         id: "32",
         title: "",
         description: "",
@@ -2055,6 +2071,22 @@ const pictures = [
         category: "Department gallery",
         image: "/pictures/42.jpg",
         link: "https://drive.google.com/file/d/1I6r3C2IYv-ujx9d6E-tQWa95D8llRcE2/view?usp=drive_link"
+    },
+    {
+        id: "45",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/45.png",
+        link: "https://drive.google.com/file/d/1VF1ivgaPSPmOLW0PM35xlhzRRNyFEhLa/view?usp=drive_link"
+    },
+    {
+        id: "46",
+        title: "",
+        description: "",
+        category: "Department gallery",
+        image: "/pictures/46.png",
+        link: "https://drive.google.com/file/d/1Y-q1kMLRLPNgSLP7kmF7JMMOZ5b719iD/view?usp=drive_link"
     }
 ];
 }),
