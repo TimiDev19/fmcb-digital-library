@@ -681,6 +681,24 @@ const journals = [
         image: "/journals/3.png",
         link: "https://drive.google.com/file/d/1-I4YCHXElOg_bHQiISnTB7iofrwycH7D/view?usp=sharing",
         year: "Adekunle G. Salaudeen, Omotosho I. Musa, Austin Ojotule1, Ayodeji S. Yusuf2, Kabir A. Durowade3, Lukman O. Omokanye4"
+    },
+    {
+        id: "4",
+        title: "Pattern and Types of Disability among Students in Schools for Special Needs in Resource Limited Setting of Africa",
+        description: "",
+        category: "Research journal",
+        image: "/journals/4.png",
+        link: "https://drive.google.com/file/d/1rvXG6jVbBcrbTuwOgJyORUaHv8YU6qFA/view?usp=sharing",
+        year: "Alatishe-muhammad Bilqis Wuraola1*, Olubiyi Olubunmi Abiola2 , Afolayan Munirat Ayoola3, Rotimi Bosede Folasade4, Ameen Hafsah Abolore5, Bolarinwa Oladimeji Akeem5, 1,5 Salaudeen Adekunle Ganiyu , Suriyakala Perumal Chandran1"
+    },
+    {
+        id: "5",
+        title: "Prevalence and Predictors of Helminthic Infections among Pupils in a Public Primary School in a North Central City of Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "/journals/5.png",
+        link: "https://drive.google.com/file/d/1TYeKxDOBY4H7OHOa8H0eI4WdyBBjyW0r/view?usp=sharing",
+        year: "Ameen H.A, Salaudeen A.G, Bolarinwa O.A, Uthman M.M.B, Musa O.I, Akande, T.M"
     }
 ];
 const pictures = [
