@@ -301,7 +301,7 @@ export default function Home() {
             </p>
             <div className="relative mt-8 flex flex-wrap gap-3 cursor-pointer">
               <button
-                onClick={() => choose("courses")}
+                onClick={() => choose("books")}
                 className="rounded-xl bg-[#008C7A] px-5 py-3 text-sm font-bold text-[#fff] hover:text-[#008C7A] duration-500 cursor-pointer transition hover:bg-[#008C7A]/50"
               >
                 Browse books
