@@ -656,49 +656,436 @@ const courses = [
 ];
 const journals = [
     {
+        id: "999",
+        title: "Links To More Journals",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://docs.google.com/document/d/1c2Qg8qWgSh_gtHgOXGyNt0V_NMtK_MdF/edit?usp=drive_link&ouid=115141053448120915969&rtpof=true&sd=true",
+        year: ""
+    },
+    {
         id: "1",
         title: "Rarity of Heart Failure in a Traditional African Population; A Rural Community Based Study",
         description: "",
         category: "Research journal",
-        image: "/journals/1.png",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
         link: "https://drive.google.com/file/d/1cODg3F5inxApWiNwgwTr0oDAMausOhLD/view?usp=sharing",
-        year: "Basil N. Okeahialam1, Hadiza A. Agbo2, Chikaike Ogbonna2 , Evelyn K. Chuhwak1, Ikechukwu O.Isiguzoro3"
+        year: ""
     },
     {
         id: "2",
         title: "Knowledge and behavior towards voluntary blood donation among students of a tertiary institution in Nigeria",
         description: "",
         category: "Research journal",
-        image: "/journals/2.png",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
         link: "https://drive.google.com/file/d/11jiDTKCfCu_X6ZCC1Mw7kk-jOZhAyx8o/view?usp=sharing",
-        year: "AG Salaudeen, E Odeh1"
+        year: ""
     },
     {
         id: "3",
         title: "Condom use among people living with HIV/AIDS attending Abejukolo General Hospital in Kogi State, North Central Nigeria",
         description: "",
         category: "Research journal",
-        image: "/journals/3.png",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
         link: "https://drive.google.com/file/d/1-I4YCHXElOg_bHQiISnTB7iofrwycH7D/view?usp=sharing",
-        year: "Adekunle G. Salaudeen, Omotosho I. Musa, Austin Ojotule1, Ayodeji S. Yusuf2, Kabir A. Durowade3, Lukman O. Omokanye4"
+        year: ""
     },
     {
         id: "4",
         title: "Pattern and Types of Disability among Students in Schools for Special Needs in Resource Limited Setting of Africa",
         description: "",
         category: "Research journal",
-        image: "/journals/4.png",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
         link: "https://drive.google.com/file/d/1rvXG6jVbBcrbTuwOgJyORUaHv8YU6qFA/view?usp=sharing",
-        year: "Alatishe-muhammad Bilqis Wuraola1*, Olubiyi Olubunmi Abiola2 , Afolayan Munirat Ayoola3, Rotimi Bosede Folasade4, Ameen Hafsah Abolore5, Bolarinwa Oladimeji Akeem5, 1,5 Salaudeen Adekunle Ganiyu , Suriyakala Perumal Chandran1"
+        year: ""
     },
     {
         id: "5",
         title: "Prevalence and Predictors of Helminthic Infections among Pupils in a Public Primary School in a North Central City of Nigeria",
         description: "",
         category: "Research journal",
-        image: "/journals/5.png",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
         link: "https://drive.google.com/file/d/1TYeKxDOBY4H7OHOa8H0eI4WdyBBjyW0r/view?usp=sharing",
-        year: "Ameen H.A, Salaudeen A.G, Bolarinwa O.A, Uthman M.M.B, Musa O.I, Akande, T.M"
+        year: ""
+    },
+    {
+        id: "6",
+        title: "A Comparison of Patterns, Predictors, and Help-Seeking Behaviours Related to Intimate Partner Violence Among Women in Rural and Urban Communities of Osun State",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1t3MCcxAKLTdwqMNOH1WIn5JKwG1DG4uT/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "7",
+        title: "Knowledge and prevalence of risk factors for arterial hypertension and blood pressure pattern among bankers and traffic wardens in Ilorin, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1hWrxxZHL54Pi8sPJlqk5cRCdGgxz74oO/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "8",
+        title: "Knowledge of Blood Donation among Adults in North-Central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1l6Re17-xfCPsAp236EG2_B_YxocncYT3/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "9",
+        title: "Epidemiological and clinical description of Lassa fever in Jos, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1dNFWTRtUqj_0jGakCs2s0hscDbP00gmr/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "10",
+        title: "The Effect Of Training On Knowledge And Practices Of Vaccine Management Among Primary Health Care (PHC) Workers In Static Immunization Facilities In Ilorin, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1913Qjieb4VFU67sXm9vuh33Pql7XIahB/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "11",
+        title: "Knowledge And Experience Of Work-Related Hazards And Utilization Of Safety Practices Among Solid Waste Scavengers In Ilorin Metropolis, Kwara State, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1a-7zJg8ua4zTTN-9mpIYR6xkSy1Uap3h/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "12",
+        title: "KNOWLEDGE OF SEXUALLY TRANSMITTED INFECTIONS AMONG SENIOR SECONDARY SCHOOL STUDENTS IN JOS NORTH LOCAL GOVERNMENT AREA OF PLATEAU STATE",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1tLB2C7rD1kYKivU85kpges21cwnvvBNP/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "13",
+        title: "Utilization of personal protective equipment among sawmill workers in Ilorin metropolis, North-central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1x_Rg-FHGbMP1pFaNfK99pVGvzcMJ0oKe/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "14",
+        title: "Effect of mobile health intervention on perception and uptake of cervical cancer screening among nurses in Jos University Teaching Hospital",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1BAYxcrDIABVYV91YFUbL98c54nP1dKj_/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "15",
+        title: "THE ROLE AND PLACE OF MEDICINAL PLANTS IN THE STRATEGIES FOR DISEASE PREVENTION",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1lWsOn0ZQfoa95LzlZjNZC38O7AmJfEGU/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "16",
+        title: "A Prospective Study of Spectrum, Risk Factors and Immediate Outcome of Congenital Anomalies in Bida, North Central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1RNYrYpmQqX-i5WDE47RUYhHwzgKuqVYh/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "17",
+        title: "Archives of Clinical Research",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1h5eEJvKh-tDisSr5BhZKD9nnrR1Avc4v/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "18",
+        title: "Birth Preparedness and Emergency Readiness Plans of Antenatal Clinic Attendees in lIe-ife, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1Z-mhSwrw-LrfWxyfw9eq8LDo7ilUDKPn/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "19",
+        title: "Cardiac Abnormalities among HIV-Exposed Infants in North-Central Nigeria: Implications for Early Echocardiographic Screening — A Cross-Sectional Comparative Study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/11Gn7jnn2TL0qjxpNbK5ZZ_x2K-pB1mBx/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "20",
+        title: "Principles of Epidemiology in Public Health Practice",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1LAo64AfGDSsXvqbcsdZU4qlLrD4iRvxU/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "21",
+        title: "Community survey on blood donation practices in a northern state of Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1UNRki1BUVSgL_28EA7J9DIdiq4H0oheH/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "22",
+        title: "Condom use among HIV sero‐concordant couples attending a secondary health facility in North‐Central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/153uQl8DahduB3cWX1_1yDgU2ckrdPcKN/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "23",
+        title: "The Tropical Journal of Health Sciences",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/14osH9-2y8PU7DpDLzczPiZUmxxAc_7Zx/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "24",
+        title: "Distribution of Organochlorine Pesticides in Nigerian Human Serum and Risk of Cancer: A case-control study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1fmLd7IM-0uo-y-V4Dfk6nOQCruRhbLJZ/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "25",
+        title: "Awareness, perceptions and willingness to accept malaria vaccine for children under age 5 among mothers in Northcentral Nigeria: a cross-sectional study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1u4btmVhwy8B80Ulu63RUwX8bQBz07rW5/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "26",
+        title: "Factors related to the uptake of contraceptive in a rural community in Plateau State Nigeria:A cross‐sectional community study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1-v_yJAtUTtDvD9Oeu-NUgBgjYcNdyeja/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "27",
+        title: "Preventing occupational injuries in the informal construction industry: a study protocol for the development of a safety education intervention for bricklayers and carpenters in Osun State, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/10xJAnDSqUToI07K0Lbfq6AJrrhZfdaEm/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "28",
+        title: "Health-Seeking Behaviour and Healthcare Service Utilization among Healthcare Workers in Tertiary Hospitals in Ondo State, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1IKSkhCuG9bzjydUggK16_MYVG3DAMz0W/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "29",
+        title: "Environmental Working Conditions, Lung Function and Total Serum Bile Acids of Spray Painters Exposed to Organic Solvents in Ile-Ife, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1R0FPRJwAnseeqCtuC0dzVHYKTnvLfP78/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "30",
+        title: "Work Practices and Health Problems of Spray Painters Exposed to Organic Solvents in Ile-Ife, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1UY3RpqAZ1DyP6dWy2u7oOBOWESEh6Dx9/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "31",
+        title: "Improving Maternal, Newborn and Child Health Care in Nigeria – A Medical Women’s Association of Nigeria Multi‐centre Study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1BTzK7yDQeyzo5Nf0Le3UezPX6YXKCg1m/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "32",
+        title: "An overview of the effect of biomass in-door-air pollution on household members",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/19v5S21NLUgc0Atu__dfSBATXXnCKSJDu/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "33",
+        title: "Work-life balance and burnout: the practicing doctor's dilemma",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1yHkZjd3tv6SNFFRbU4_wu8BKl5dGdIzG/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "34",
+        title: "Work-life balance and burnout: the practicing doctor's dilemma",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1yHkZjd3tv6SNFFRbU4_wu8BKl5dGdIzG/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "35",
+        title: "Routine Immunization Uptake and Knowledge of Caregivers in Selected Rural Communities in Northwestern Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1TAM6hbeeMF00aZOK6ctItCMJ5YxX_TKa/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "36",
+        title: "Breast Cancer Knowledge and Screening Practices among Female Nurses in a Tertiary Hospital in North Central, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1S_fAmsS4jm65NZFPWOCFWX4c5kYUDL2j/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "37",
+        title: "Relationship of blood pressure with some cardiovascular disease risk factors in a rural population of Plateau State, North Central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1mHZ84jp5b3b4qOgvilL-vR3TyTyi_Zon/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "38",
+        title: "Are There Evidence to Support the Informal Sector’s Willingness to Participate and Pay for Statewide Health Insurance Scheme in Nigeria?",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1DVH0TgLaivBzVuhd761yBkOkQwmOolqA/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "39",
+        title: "Measles in a Tertiary Institution in Bida, Niger State, Nigeria: Prevalence, Immunization Status and Mortality Pattern",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/10x_HNqxzz3BranG6TcgBHyMoNaCU5L0q/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "40",
+        title: "Amulets, Bands and Other Traditional Applications seen among Emergency and Neonatal Pediatric Admissions in a Tertiary Centre, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1C8p6VoVyfUOvqV8bd41Foc2i4u5pXdjL/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "41",
+        title: "Assessing baseline knowledge and practices of injection safety among primary health care workers in Cross River State, Nigeria: a cross-sectional urban-rural comparative study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/17E-_BuPPfLBm3SYst-EifIus7NukLJpm/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "42",
+        title: "Prevalence and Risk Factors of Glaucoma Among Adults in Rural and Urban Communities of Ilorin West Local Government Area, North-Central Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1EkksgWylTupPwrxTvS38KGq3jYVYUPFH/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "43",
+        title: "Echocardiographic cardiac abnormalities among HIV-exposed uninfected infants in North-Central Nigeria: a comparative cross-sectional study",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1cnIurzcjk2TKZ-toHpJ_WoyOKBzn3MJb/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "44",
+        title: "The ten‐year risk of developing cardiovascular disease among public health workers in North‐Central Nigeria using Framingham and atherogenic index of plasma risk scores",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1_w_qnM8bfR8UvXyC5iPd3KyjogBwO3GQ/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "45",
+        title: "Short and longer‐term impacts of health insurance on catastrophic health expenditures in Kwara State, Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/19ofkBNqKwhnZ5tSVaHuS6KZRO_vyGE3I/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "46",
+        title: "COVID-19-related stress, anxiety and vaccine hesitancy among healthcare workers in a tertiary hospital in South-Western Nigeria",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/1mc3rtpwpWI8_P4TZjTb5YxwCwkc9OmaW/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "47",
+        title: "Training: A vital tool for improving the knowledge and practice of food safety and hygiene among food handlers in boarding secondary schools in Plateau State",
+        description: "",
+        category: "Research journal",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80",
+        link: "https://drive.google.com/file/d/11yE1FPiQaMSzLcU-MTzQIz5yb6VCsrJZ/view?usp=sharing",
+        year: ""
     }
 ];
 const pictures = [
