@@ -14,7 +14,7 @@ __turbopack_context__.s([
 ]);
 const books = [
     {
-        id: "322",
+        id: "63",
         title: "Jekel’s Epidemiology, Biostatistics, Preventive Medicine, and Public",
         description: "",
         category: "Core text",
@@ -23,13 +23,13 @@ const books = [
         year: ""
     },
     {
-        id: "333",
-        title: "Leon Gordis Epidemioly  6th Edition",
+        id: "48",
+        title: "Leon Gordis Epidemiology 6th Edition",
         description: "",
         category: "Core text",
-        image: "/book33.png",
-        link: "https://drive.google.com/file/d/1R21Twd6PEnubjdw_pG34GovuIlzdl2v5/view?usp=sharing",
-        year: ""
+        image: "/books/book48.png",
+        link: "https://drive.google.com/file/d/1Hi1zsgxotxwiXcGKx8qSsrIZzjAaC7cu/view?usp=sharing",
+        year: "David D. Celentano & Moyses Szklo"
     },
     {
         id: "1",
@@ -443,6 +443,249 @@ const books = [
         category: "Core text",
         image: "/books/book46.png",
         link: "https://drive.google.com/file/d/1E1eiC-nebXV-Sjh80zbofnVlJoI_MmeK/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "47",
+        title: "GIS in Public Health Practice",
+        description: "",
+        category: "Core text",
+        image: "/books/book47.png",
+        link: "https://drive.google.com/file/d/1C0WIbbN5IzhsJAKqOWE2sCT8VSGfQcm6/view?usp=sharing",
+        year: "Ravi Maheswaran & Massimo Craglia"
+    },
+    {
+        id: "49",
+        title: "Global Tubersulosis Control 2009",
+        description: "Epidemiology Strategy Financing",
+        category: "Core text",
+        image: "/books/book49.png",
+        link: "https://drive.google.com/file/d/1mdHZ4ycpSJfxO8KFX3tlBPX19_VZypMk/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "50",
+        title: "Handbook of Epidemiology",
+        description: "",
+        category: "Core text",
+        image: "/books/book50.png",
+        link: "https://drive.google.com/file/d/1Zrt13x324QFG8yP_dPeTDBFDAmXFMhn6/view?usp=sharing",
+        year: "W. Ahrens & I. Pigeot"
+    },
+    // {
+    //   id: "51",
+    //   title: "Handbook of Regression and Modelling",
+    //   description: "Applications for the Clinical and Pharmaceutical Industries",
+    //   category: "Core text",
+    //   image: "/books/book51.png",
+    //   link: "https://drive.google.com/file/d/1PlV2_Qp977HMFJcdk89qv1HWXH1P8pxJ/view?usp=sharing",
+    //   year: "Daryl S. Paulson",
+    // },
+    {
+        id: "52",
+        title: "Handbook of Regression and Modelling",
+        description: "Applications for the Clinical and Pharmaceutical Industries",
+        category: "Core text",
+        image: "/books/book52.png",
+        link: "https://drive.google.com/file/d/1PlV2_Qp977HMFJcdk89qv1HWXH1P8pxJ/view?usp=sharing",
+        year: "Daryl S. Paulson"
+    },
+    {
+        id: "53",
+        title: "Handbook of Health Research Methods",
+        description: "",
+        category: "Core text",
+        image: "/books/book53.png",
+        link: "https://drive.google.com/file/d/1hS7i5qj_NSI7wBKA16YMkhpFQf1f-kGB/view?usp=drive_link",
+        year: "Ann Bowling and Shah Ebrahim"
+    },
+    {
+        id: "54",
+        title: "A Handbook of Statistical Analyses Using R",
+        description: "",
+        category: "Core text",
+        image: "/books/book54.png",
+        link: "https://drive.google.com/file/d/1Cq9ZWfVnHX3V5QNIFWj9IrIHlKA6z-kX/view?usp=sharing",
+        year: "Brian S. Everitt and Torsten Hothorn"
+    },
+    {
+        id: "55",
+        title: "Health Economics",
+        description: "An introduction for health professionals",
+        category: "Core text",
+        image: "/books/book55.png",
+        link: "https://drive.google.com/file/d/1H1ScPKxdiNmy7G2ZpohdImPbQegc6tbS/view?usp=sharing",
+        year: "Ceri J. Phillips"
+    },
+    {
+        id: "56",
+        title: "Analyzing Health Equity Using Household Survey Data",
+        description: "A Guide to Techniques and Their Implementation",
+        category: "Core text",
+        image: "/books/book56.png",
+        link: "https://drive.google.com/file/d/1fV4fNYnz-KsSz9X7UmsQvP3eRmyyOFUq/view?usp=sharing",
+        year: "Owen O’Donnell & Eddy van Doorslaer & Adam Wagstaff & Magnus Lindelow"
+    },
+    {
+        id: "57",
+        title: "A Short Introduction to Epidemiology 2nd Edition",
+        description: "",
+        category: "Core text",
+        image: "/books/book57.png",
+        link: "https://drive.google.com/file/d/1PHHQxG5MvGs55W5ENiXwMWiidbAnJgr0/view?usp=sharing",
+        year: "Neil Pearce"
+    },
+    {
+        id: "58",
+        title: "Intoduction to Meta Analysis",
+        description: "",
+        category: "Core text",
+        image: "/books/book58.png",
+        link: "https://drive.google.com/file/d/1rw5HDrASBPo3itYj12W8Z3jGalnucHKZ/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "59",
+        title: "An Introduction to Categorical Data Analysis",
+        description: "",
+        category: "Core text",
+        image: "/books/book59.png",
+        link: "https://drive.google.com/file/d/1k4BBe0_BWrviGnajctCIQVQ4F58JC3Ca/view?usp=sharing",
+        year: "Alan Agresti"
+    },
+    {
+        id: "60",
+        title: "Introductory Biostatistics for the Health Sciences",
+        description: "",
+        category: "Core text",
+        image: "/books/book60.png",
+        link: "https://drive.google.com/file/d/1JZN0G8oKvdZuuRbevUr0E1aUbJ84xvf1/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "61",
+        title: "Introductory Biostatistics",
+        description: "",
+        category: "Core text",
+        image: "/books/book61.png",
+        link: "https://drive.google.com/file/d/1NOFUpmQ2Hp_Kmo37strQfVp96IJTHdAI/view?usp=sharing",
+        year: "Chap T. Le"
+    },
+    {
+        id: "62",
+        title: "Principles and Practice of Surgery",
+        description: "",
+        category: "Core text",
+        image: "/books/book62.png",
+        link: "https://drive.google.com/file/d/18huiS6m5zmpaTA598tkQ1-U5JMfyf8DV/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "64",
+        title: "Statistics for Biology and Health",
+        description: "",
+        category: "Core text",
+        image: "/books/book64.png",
+        link: "https://drive.google.com/file/d/13Mgz3XufX9APMrw4JNPQLUQ_F_SXjC5c/view?usp=sharing",
+        year: "K. Dietz, M. Gail, K. Krickeberg, A. Tsiatis, J. Samet"
+    },
+    {
+        id: "65",
+        title: "Longitudinal Data Analysis",
+        description: "",
+        category: "Core text",
+        image: "/books/book65.png",
+        link: "https://drive.google.com/file/d/1syo8XLFBQ3KbZPipGaYZ7RnbUVpcvu3I/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "66",
+        title: "Statistics for Social and Behavioral Sciences",
+        description: "",
+        category: "Core text",
+        image: "/books/book66.png",
+        link: "https://drive.google.com/file/d/1lOgTnMMDSZ9obL-uzvcFBBVPPhMfR6eV/view?usp=sharing",
+        year: "S.E. Fienberg W.J. van der Linden"
+    },
+    {
+        id: "67",
+        title: "Making Sense of Data",
+        description: "",
+        category: "Core text",
+        image: "/books/book67.png",
+        link: "https://drive.google.com/file/d/1MN_TEc13FceEhYGnVemLnpF4NLEcq-BV/view?usp=sharing",
+        year: "Glenn J. Myatt"
+    },
+    {
+        id: "68",
+        title: "Mathematical Epidemiology",
+        description: "",
+        category: "Core text",
+        image: "/books/book68.png",
+        link: "https://drive.google.com/file/d/16zgRADOB1aRVrXD9ngJEDj5QDiCvDL3b/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "69",
+        title: "Medical Statistics from A to Z",
+        description: "",
+        category: "Core text",
+        image: "/books/book69.png",
+        link: "https://drive.google.com/file/d/11aSustZg3PTHDsbPJ7RtIgOx18WOYt64/view?usp=sharing",
+        year: "Brian Everitt"
+    },
+    {
+        id: "70",
+        title: "Medical Statistics Made Easy",
+        description: "",
+        category: "Core text",
+        image: "/books/book70.png",
+        link: "https://drive.google.com/file/d/1QHQf4Jppdh_h4bzhwNvKCKPK4CHWiDYF/view?usp=sharing",
+        year: "Martin Dunitz"
+    },
+    {
+        id: "71",
+        title: "Meta Analysis",
+        description: "",
+        category: "Core text",
+        image: "/books/book71.png",
+        link: "https://drive.google.com/file/d/1fvgxdUcpOYUJsieKkGhU1cDtiFKCfG7r/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "72",
+        title: "Meta Analysis in Medicine and Health Policy",
+        description: "",
+        category: "Core text",
+        image: "/books/book72.png",
+        link: "https://drive.google.com/file/d/1HPX97JGpY9PhhJs8mGGLKHE3ZL0X_bsN/view?usp=sharing",
+        year: "Dalene K. Stangl & Donald A. Berry"
+    },
+    {
+        id: "73",
+        title: "Meta Analysis in Medical Research",
+        description: "",
+        category: "Core text",
+        image: "/books/book73.png",
+        link: "https://drive.google.com/file/d/1VTwStxGmrd3Xg0AWrgkfUP3lCRf00KEC/view?usp=sharing",
+        year: "Gioacchino Leandro"
+    },
+    {
+        id: "74",
+        title: "Methods in Field Epidemiolgy",
+        description: "",
+        category: "Core text",
+        image: "/books/book74.png",
+        link: "https://drive.google.com/file/d/1IGWWfbLE6FebFnooy5Xh6n_3bIY-EDMC/view?usp=sharing",
+        year: "Pia D. M. MacDonald, PhD, MPH, CPH"
+    },
+    {
+        id: "75",
+        title: "Management Information Systems",
+        description: "",
+        category: "Core text",
+        image: "/books/book75.png",
+        link: "https://drive.google.com/file/d/17iZYG15h1itQKdXLgnBhcZ3yvtFKGA_A/view?usp=sharing",
         year: ""
     }
 ];
