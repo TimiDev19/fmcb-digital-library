@@ -12,7 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: "FMC Bida | Community Healthcare Library",
+    title: "FMC Bida | Community Health Digital Library",
     description: "A comprehensive digital repository advancing public health through accessible data, peer-reviewed literature, and community wellness initiatives"
 };
 function RootLayout({ children }) {

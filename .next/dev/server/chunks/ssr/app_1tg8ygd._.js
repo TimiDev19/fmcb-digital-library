@@ -687,6 +687,177 @@ const books = [
         image: "/books/book75.png",
         link: "https://drive.google.com/file/d/17iZYG15h1itQKdXLgnBhcZ3yvtFKGA_A/view?usp=sharing",
         year: ""
+    },
+    {
+        id: "76",
+        title: "Multilevel Modelling",
+        description: "",
+        category: "Core text",
+        image: "/books/book76.png",
+        link: "https://drive.google.com/file/d/1ZoZuoEZHU6RnbWkDtFoQ6kdikhlTaMrp/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "77",
+        title: "National Health Insurance Scheme",
+        description: "",
+        category: "Core text",
+        image: "/books/book77.png",
+        link: "https://drive.google.com/file/d/1CuunfEpXC3XjlA2f5kiPqiNN-zodeFTi/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "78",
+        title: "Needs Assessment in Public Health",
+        description: "",
+        category: "Core text",
+        image: "/books/book78.png",
+        link: "https://drive.google.com/file/d/1VTEpRu013tFw1S5I_dCWRrUqUIrD87Jc/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "79",
+        title: "Nonparametric Statistics with Applications to Science and Engineering",
+        description: "",
+        category: "Core text",
+        image: "/books/book79.png",
+        link: "https://drive.google.com/file/d/1Y6fanTgjKmIPFdJlzYEb11B6QDFlAji8/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "80",
+        title: "Applied Econometrics for Health Economists",
+        description: "",
+        category: "Core text",
+        image: "/books/book80.png",
+        link: "https://drive.google.com/file/d/1eQJPvATEuOTWXQMyhUP3i4lO6iPYxUCg/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "81",
+        title: "Oxford Textbook Of Public Health 4Th Ed",
+        description: "",
+        category: "Core text",
+        image: "/books/book81.png",
+        link: "https://drive.google.com/file/d/13jAkcC3JozTdsAkOc0g5kvcCt9wBqE5D/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "82",
+        title: "Analysis of Panel Data",
+        description: "",
+        category: "Core text",
+        image: "/books/book82.png",
+        link: "https://drive.google.com/file/d/1RBtnH4lWos_1HdByuhZ0KcMpv8Ic6z-K/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "83",
+        title: "Park's Preventive And Social Medicine",
+        description: "",
+        category: "Core text",
+        image: "/books/book83.png",
+        link: "https://drive.google.com/file/d/1LjNdI-07IHrBbsNu_kjBBBqMTPdsjPV5/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "84",
+        title: "People and Environment",
+        description: "",
+        category: "Core text",
+        image: "/books/book84.png",
+        link: "https://drive.google.com/file/d/1P7VMwhWEtamrBtR6p3ZdEVT4ZuRa46j_/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "85",
+        title: "PSM",
+        description: "",
+        category: "Core text",
+        image: "/books/book85.png",
+        link: "https://drive.google.com/file/d/14QP58D8z1DVB7hrPNVvkCYZYJ3RZL7MD/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "86",
+        title: "Publication Bias in Meta-Analysis",
+        description: "",
+        category: "Core text",
+        image: "/books/book86.png",
+        link: "https://drive.google.com/file/d/1L-m2ddFA6WFWNZNuNV-zCyAb4HsK5knl/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "87",
+        title: "From Research to Manuscript",
+        description: "",
+        category: "Core text",
+        image: "/books/book87.png",
+        link: "https://drive.google.com/file/d/1iHooVduioDTbg3kWR0F6wGCkBNXirFjD/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "88",
+        title: "PUTTING PEOPLE ON THE MAP",
+        description: "",
+        category: "Core text",
+        image: "/books/book88.png",
+        link: "https://drive.google.com/file/d/1IdMOH6f7oY1eFX_F_O06zWMhpZyredvp/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "89",
+        title: "Quantitative Evaluation of HIV Prevention Programs",
+        description: "",
+        category: "Core text",
+        image: "/books/book89.png",
+        link: "https://drive.google.com/file/d/1iaQw2rBsWKZySqntiDaYkQEF4EWSKkRg/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "90",
+        title: "Quantitative Methods for Health Research",
+        description: "",
+        category: "Core text",
+        image: "/books/book90.png",
+        link: "https://drive.google.com/file/d/1LlXoi4DX1J87paBkS3_HLPZBrniI6FIY/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "91",
+        title: "REGRESSION MODELS FOR CATEGORICAL DEPENDENT VARIABLES USING STATA",
+        description: "",
+        category: "Core text",
+        image: "/books/book91.png",
+        link: "https://drive.google.com/file/d/1pn6VcBaxHw9xcn4LhV6fTahapVMmchhY/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "92",
+        title: "Revision of the International Health Regulations",
+        description: "",
+        category: "Core text",
+        image: "/books/book92.png",
+        link: "https://drive.google.com/file/d/1OITlPeCMiNtGnEqjFPbPVnwetOhTfi9X/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "93",
+        title: "Non-Clinical Safety Testing",
+        description: "",
+        category: "Core text",
+        image: "/books/book93.png",
+        link: "https://drive.google.com/file/d/1Pnr_L5h-ZJnKkrLIkAvwrupa5x1uAhJR/view?usp=sharing",
+        year: ""
+    },
+    {
+        id: "94",
+        title: "Pharmaceutical Innovation",
+        description: "",
+        category: "Core text",
+        image: "/books/book94.png",
+        link: "https://drive.google.com/file/d/1J6aaBYwfVlbLOz1jfDDoxhxf8gunN-DU/view?usp=sharing",
+        year: ""
     }
 ];
 const courses = [
