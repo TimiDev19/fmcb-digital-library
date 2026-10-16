@@ -229,7 +229,18 @@ export default function Home() {
                   Library collection
                 </p>
                 <p className="mt-2 text-3xl font-bold">
-                  {books.length + journals.length + pictures.length}
+                  {books.length +
+                    journals.length +
+                    pictures.length +
+                    courses.reduce(
+                      (total, course) =>
+                        total +
+                        course.weeks.reduce(
+                          (weekTotal, week) => weekTotal + week.files.length,
+                          0
+                        ),
+                      0
+                    )}
                   <span className="ml-1 text-sm font-medium text-[#b5d5bd]">
                     resources
                   </span>

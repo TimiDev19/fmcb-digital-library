@@ -23,22 +23,22 @@ export type Course = {
 
 export const books: Resource[] = [
   {
-    id: "32",
+    id: "322",
     title: "Jekel’s Epidemiology, Biostatistics, Preventive Medicine, and Public",
     description: "",
     category: "Core text",
     image:
-      "/books/book32.png",
+      "/book32.png",
     link: "https://drive.google.com/file/d/1752M44Qj-RkOj2yp56llaUWMkXTd_qAD/view?usp=sharing",
     year: "",
   },
   {
-    id: "33",
+    id: "333",
     title: "Leon Gordis Epidemioly  6th Edition",
     description: "",
     category: "Core text",
     image:
-      "/books/book33.png",
+      "/book33.png",
     link: "https://drive.google.com/file/d/1R21Twd6PEnubjdw_pG34GovuIlzdl2v5/view?usp=sharing",
     year: "",
   },
@@ -352,6 +352,156 @@ export const books: Resource[] = [
     link: "https://drive.google.com/file/d/1cGZz064c4IbzqQk05ORGpwl7gs5GqurT/view?usp=sharing",
     year: "Carl Heneghan and Douglas Badenoch",
   },
+  {
+    id: "32",
+    title: "Econometric Analysis of Cross Section and Panel Data",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book32.png",
+    link: "https://drive.google.com/file/d/15dn4nqZDiWNT4f10LUvgky3INqyflcI6/view?usp=sharing",
+    year: "Jeffery M. Woolbridge",
+  },
+  {
+    id: "33",
+    title: "ECONOMETRIC ANALYSIS",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book33.png",
+    link: "https://drive.google.com/file/d/1-IjihgfEhU0sHfHNWzu5O48ooty5tIfe/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "34",
+    title: "Econometrics R",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book34.png",
+    link: "https://drive.google.com/file/d/1A5D-OMuuncPcoKZZp5mat-ArkbpaN9Mf/view?usp=sharing",
+    year: "Robert Gentleman · Kurt Hornik · Giovanni Parmigiani",
+  },
+  {
+    id: "35",
+    title: "An Eponymous Dictionary of Economics",
+    description: "A Guide to Laws and Theorems Named after Economists",
+    category: "Core text",
+    image:
+      "/books/book35.png",
+    link: "https://drive.google.com/file/d/1hdEeSeJdImFre-3LE8HTPqlvTxR0UM_7/view?usp=sharing",
+    year: "Edward Elgar",
+  },
+  {
+    id: "36",
+    title: "Principles of EPIDEMIOLOGY",
+    description: "An Introduction to Applied Epidemiology and Biostatistics",
+    category: "Core text",
+    image:
+      "/books/book36.png",
+    link: "https://drive.google.com/file/d/1inqTHE19V2cdOGvh925tCsMqavW6Ux_S/view?usp=sharing",
+    year: "Edward Elgar",
+  },
+  {
+    id: "37",
+    title: "Analysis of epidemiological data using R and EpicalcY",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book37.png",
+    link: "https://drive.google.com/file/d/1foYWffehJRrbFuqyON5XJC8aFaRafGMw/view?usp=sharing",
+    year: "Virasakdi Chongsuvivatwong",
+  },
+  {
+    id: "38",
+    title: "Epidemiology and Fundamentals of Infectious Diseases",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book38.png",
+    link: "https://drive.google.com/file/d/1sriIyf6k0rsCLadR6MFX4I2ORp0QkXgn/view?usp=sharing",
+    year: "M.L. Volovskaya",
+  },
+  {
+    id: "39",
+    title: "Epidemiology Study Design and Data Analysis",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book39.png",
+    link: "https://drive.google.com/file/d/1L8NrZfR7PD0GeyKEezx8Z2vS9Qt-ZyZi/view?usp=sharing",
+    year: "Mark Woodward",
+  },
+  {
+    id: "40",
+    title: "EPIDEMIOLOGY",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book40.png",
+    link: "https://drive.google.com/file/d/1UpTEcrjUR2clFRYkv3NdbAAkFSGI0e--/view?usp=sharing",
+    year: "ORUIKOR GABRIEL JEREMIAH",
+  },
+  {
+    id: "41",
+    title: "Using ArcGIS™ Spatial Analyst",
+    description: "GIS by ESRI™",
+    category: "Core text",
+    image:
+      "/books/book41.png",
+    link: "https://drive.google.com/file/d/1hFeJ-ai-tbZKkgcO5uJnlQPA8Oi95xEy/view?usp=sharing",
+    year: "Jill McCoy and Kevin Johnston",
+  },
+  {
+    id: "42",
+    title: "ESSENTIAL PUBLIC HEALTH FUNCTIONS",
+    description: "A three-country study in the Western Pacific Region",
+    category: "Core text",
+    image:
+      "/books/book42.png",
+    link: "https://drive.google.com/file/d/1qpHiZMeMV6cY1edO0PPtAqUGUYsFkjts/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "43",
+    title: "Essentials of Public Health Research Methods",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book43.png",
+    link: "https://drive.google.com/file/d/1zV0fPhxe6gh6fCiTxmPAfADHPaCfqobO/view?usp=sharing",
+    year: "",
+  },
+  {
+    id: "44",
+    title: "Fundamentals of Biostatistics (7the Edition)",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book44.png",
+    link: "https://drive.google.com/file/d/1AtHBXURNW3Op7zIqRQpJnp_w4URKUD4U/view?usp=sharing",
+    year: "Bernard Rosner",
+  },
+  {
+    id: "45",
+    title: "Geographically Weighted Regression",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book45.png",
+    link: "https://drive.google.com/file/d/1m8ciBQdUXTmkVRZiV6iV4JMBkEAK-Oij/view?usp=sharing",
+    year: "A. Stewart Fotheringham & Chris Brundson & Martin Charlton",
+  },
+  {
+    id: "46",
+    title: "GIS and Evidence-Based Policy Making",
+    description: "",
+    category: "Core text",
+    image:
+      "/books/book46.png",
+    link: "https://drive.google.com/file/d/1E1eiC-nebXV-Sjh80zbofnVlJoI_MmeK/view?usp=sharing",
+    year: "",
+  },
 ];
 
 // Example structure: give every week its own `files` array. Replace this
@@ -590,35 +740,34 @@ export const courses: Course[] = [
 
 export const journals: Resource[] = [
   {
-    id: "journal-african",
-    title: "African Journal of Primary Health Care",
-    description: "Research advancing primary healthcare across the continent.",
+    id: "1",
+    title: "Rarity of Heart Failure in a Traditional African Population; A Rural Community Based Study",
+    description: "",
     category: "Research journal",
     image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/",
-    year: "Latest issue",
+      "/journals/1.png",
+    link: "https://drive.google.com/file/d/1cODg3F5inxApWiNwgwTr0oDAMausOhLD/view?usp=sharing",
+    year: "Basil N. Okeahialam1, Hadiza A. Agbo2, Chikaike Ogbonna2 , Evelyn K. Chuhwak1, Ikechukwu O.Isiguzoro3",
   },
   {
-    id: "journal-nigerian",
-    title: "Nigerian Medical Journal",
-    description: "Peer-reviewed evidence relevant to local clinical practice.",
+    id: "2",
+    title: "Knowledge and behavior towards voluntary blood donation among students of a tertiary institution in Nigeria",
+    description: "",
     category: "Research journal",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/",
-    year: "Current volume",
+      "/journals/2.png",
+    link: "https://drive.google.com/file/d/11jiDTKCfCu_X6ZCC1Mw7kk-jOZhAyx8o/view?usp=sharing",
+    year: "AG Salaudeen, E Odeh1",
   },
   {
-    id: "journal-community",
-    title: "Community Health Review",
-    description:
-      "Interdisciplinary perspectives on care, equity and prevention.",
+    id: "3",
+    title: "Condom use among people living with HIV/AIDS attending Abejukolo General Hospital in Kogi State, North Central Nigeria",
+    description: "",
     category: "Research journal",
     image:
-      "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=700&q=80",
-    link: "https://drive.google.com/",
-    year: "Latest issue",
+      "/journals/3.png",
+    link: "https://drive.google.com/file/d/1-I4YCHXElOg_bHQiISnTB7iofrwycH7D/view?usp=sharing",
+    year: "Adekunle G. Salaudeen, Omotosho I. Musa, Austin Ojotule1, Ayodeji S. Yusuf2, Kabir A. Durowade3, Lukman O. Omokanye4",
   },
 ];
 
