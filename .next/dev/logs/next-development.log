@@ -437,3 +437,22 @@
 {"timestamp":"03:20:57.949","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `45`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
 {"timestamp":"03:20:57.949","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `45`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
 {"timestamp":"05:33:18.078","source":"Server","level":"LOG","message":"✓ Compiled in 189ms"}
+{"timestamp":"16:24:32.633","source":"Server","level":"LOG","message":"✓ Compiled in 222ms"}
+{"timestamp":"16:24:37.616","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"16:24:51.599","source":"Server","level":"LOG","message":"✓ Compiled in 108ms"}
+{"timestamp":"16:24:59.569","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"16:25:04.746","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
+{"timestamp":"16:25:55.755","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"16:26:26.697","source":"Server","level":"LOG","message":"✓ Compiled in 181ms"}
+{"timestamp":"16:27:29.798","source":"Server","level":"LOG","message":"✓ Compiled in 81ms"}
+{"timestamp":"16:27:32.665","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"16:27:36.491","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"16:27:50.356","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
+{"timestamp":"16:28:33.111","source":"Server","level":"LOG","message":"✓ Compiled in 147ms"}
+{"timestamp":"16:28:39.500","source":"Server","level":"LOG","message":"✓ Compiled in 85ms"}
+{"timestamp":"16:29:08.961","source":"Server","level":"LOG","message":"✓ Compiled in 100ms"}
+{"timestamp":"16:29:26.026","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"16:29:44.862","source":"Server","level":"LOG","message":"✓ Compiled in 113ms"}
+{"timestamp":"16:29:57.680","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"16:30:19.373","source":"Server","level":"LOG","message":"✓ Compiled in 118ms"}
+{"timestamp":"16:30:22.047","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
